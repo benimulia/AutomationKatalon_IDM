@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with valid username and password.&#xd;
+username : automation_user&#xd;
+password : Password1</description>
+   <name>Login</name>
+   <tag>login valid</tag>
+   <comment></comment>
+   <testCaseGuid>773f2ea5-c824-4c4d-8e7a-b1affc8544b7</testCaseGuid>
+</TestCaseEntity>

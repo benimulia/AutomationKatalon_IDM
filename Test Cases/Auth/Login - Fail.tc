@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with valid username and password.&#xd;
+username : automation_user&#xd;
+password : Password1</description>
+   <name>Login - Fail</name>
+   <tag>login valid</tag>
+   <comment></comment>
+   <testCaseGuid>70a6b6f3-94e4-4c54-8983-7f552effb6e7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ebb7bacf-0174-4a3d-b67b-0d308c8904aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac9d18d8-eb60-425e-a8de-85c663159f7c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ebb7bacf-0174-4a3d-b67b-0d308c8904aa</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac9d18d8-eb60-425e-a8de-85c663159f7c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

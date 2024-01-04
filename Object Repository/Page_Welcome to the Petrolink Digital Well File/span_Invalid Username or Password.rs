@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Invalid Username or Password</name>
+   <tag></tag>
+   <elementGuidId>9d5c6f85-2491-40eb-9cdc-5f9ef5a6232d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;PB__PageTemplate_errorMessageLabel&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.mb-3.login-form-header.noLogo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a0b1d98f-1233-4826-ba30-adf6a28f7cee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-3 login-form-header noLogo</value>
+      <webElementGuid>f9c9039b-337c-4ffc-b827-0faab6e664b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign in to PetroVue</value>
+      <webElementGuid>edc29054-2571-4bc1-b5c0-f43455dc7da0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_user&quot;)/span[@class=&quot;mb-3 login-form-header noLogo&quot;]</value>
+      <webElementGuid>a6404a85-1f3f-4fb5-b819-d8c556e0a237</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_user']/span</value>
+      <webElementGuid>0c61927a-968c-4a5e-be3e-311494a9ac53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>d4448df2-383d-46a6-80f5-f1ce9a66d19d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Sign in to PetroVue' or . = 'Sign in to PetroVue')]</value>
+      <webElementGuid>e83c863d-e0f4-4c98-a760-875e92bc6bc6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
