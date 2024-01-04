@@ -26,7 +26,6 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_UserName'), username)
 
-'given wrong password.\r\nvalid : Password1\r\ngiven : password1'
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_Password'), 
     password)
 

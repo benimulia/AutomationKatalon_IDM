@@ -12,17 +12,41 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f7dc1016-2296-4548-b9fd-6734de7b6daa</testSuiteGuid>
    <testCaseLink>
-      <guid>8c2daab2-2c03-412d-9289-c50e20561766</guid>
+      <guid>3e5e07c7-b56a-4441-8c91-850693fd31b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Auth/Login - Wrong Password</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <testCaseId>Test Cases/Auth/Login Success with Data Driven</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17f4e7a9-de99-4dfa-a580-27c3f1d4363d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>33c93f74-cad5-4c86-9485-59cc1709cb69</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>817397f2-fea0-4516-8a4b-949939f98b0c</guid>
+      <guid>5db96b83-6c82-41ad-8f7b-5ba19f56d601</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Auth/Login</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <testCaseId>Test Cases/Auth/Login Fail with Data Driven</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ebb7bacf-0174-4a3d-b67b-0d308c8904aa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ac9d18d8-eb60-425e-a8de-85c663159f7c</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

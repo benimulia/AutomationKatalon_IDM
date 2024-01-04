@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>url for automation testing</description>
-      <initValue>'https://samscvtech8.dev.petrolink.net/petrovue/idm'</initValue>
+      <initValue>'https://samscvtech8.dev.petrolink.net/petrovue/idm/home'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

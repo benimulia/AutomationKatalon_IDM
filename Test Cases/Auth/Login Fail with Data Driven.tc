@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Login with valid username and password.&#xd;
-username : automation_user&#xd;
-password : Password1</description>
-   <name>Login - Fail</name>
-   <tag>login valid</tag>
+   <description>Login with invalid username and password. Covered by Data Driven Testing</description>
+   <name>Login Fail with Data Driven</name>
+   <tag>login invalid</tag>
    <comment></comment>
    <testCaseGuid>70a6b6f3-94e4-4c54-8983-7f552effb6e7</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>33cf7e67-d22f-4224-bb77-8fc4ca7dbfba</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-3</value>
+      </iterationEntity>
+      <testDataId>Data Files/LoginData</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>33cf7e67-d22f-4224-bb77-8fc4ca7dbfba</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
       <variableId>ebb7bacf-0174-4a3d-b67b-0d308c8904aa</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>33cf7e67-d22f-4224-bb77-8fc4ca7dbfba</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
       <variableId>ac9d18d8-eb60-425e-a8de-85c663159f7c</variableId>
    </variableLinks>
    <variable>
