@@ -17,29 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_UserName'), GlobalVariable.USERNAME)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_Password'), 
-    GlobalVariable.PASSWORD)
-
-WebUI.click(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/button_Sign In'))
-
-actual_url = WebUI.getUrl()
-
-'this step for verify url, means user login successfuly'
-WebUI.verifyMatch(actual_url, GlobalVariable.URL, false)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_IDM/span_Welcome to IDM'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_IDM/span_Welcome to IDM'), 'Welcome to IDM')
-
-KeywordUtil.markPassed('Login Successfully. Test Case Passed.')
-
 WebUI.closeBrowser()
 

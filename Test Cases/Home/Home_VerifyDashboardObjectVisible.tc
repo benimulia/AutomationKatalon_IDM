@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Login with invalid username and password. Covered by Data Driven Testing</description>
-   <name>Login Fail with Data Driven</name>
-   <tag>login invalid</tag>
+   <description>Login with valid username and password. Covered by Data Driven Testing</description>
+   <name>Home_VerifyDashboardObjectVisible</name>
+   <tag>login valid</tag>
    <comment></comment>
-   <testCaseGuid>70a6b6f3-94e4-4c54-8983-7f552effb6e7</testCaseGuid>
+   <testCaseGuid>693a07cb-1ae8-4ab7-b0f6-751dd46f8919</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>33cf7e67-d22f-4224-bb77-8fc4ca7dbfba</id>
+      <id>1e117fe8-4ca5-4d73-9575-768a368ca972</id>
       <iterationEntity>
          <iterationType>RANGE</iterationType>
-         <value>1-3</value>
+         <value>4-5</value>
       </iterationEntity>
       <testDataId>Data Files/LoginData</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>33cf7e67-d22f-4224-bb77-8fc4ca7dbfba</testDataLinkId>
+      <testDataLinkId>1e117fe8-4ca5-4d73-9575-768a368ca972</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>username</value>
-      <variableId>ebb7bacf-0174-4a3d-b67b-0d308c8904aa</variableId>
+      <variableId>1dd4297b-402d-4893-b496-dd2e6369d2ee</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>33cf7e67-d22f-4224-bb77-8fc4ca7dbfba</testDataLinkId>
+      <testDataLinkId>1e117fe8-4ca5-4d73-9575-768a368ca972</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>password</value>
-      <variableId>ac9d18d8-eb60-425e-a8de-85c663159f7c</variableId>
+      <variableId>7431039a-8d61-49d8-9c0a-5cf198deaceb</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ebb7bacf-0174-4a3d-b67b-0d308c8904aa</id>
+      <id>1dd4297b-402d-4893-b496-dd2e6369d2ee</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ac9d18d8-eb60-425e-a8de-85c663159f7c</id>
+      <id>7431039a-8d61-49d8-9c0a-5cf198deaceb</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

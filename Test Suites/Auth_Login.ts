@@ -15,7 +15,7 @@
       <guid>3e5e07c7-b56a-4441-8c91-850693fd31b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Auth/Login Success with Data Driven</testCaseId>
+      <testCaseId>Test Cases/Auth/Login_ValidCredentials_Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -34,7 +34,7 @@
       <guid>5db96b83-6c82-41ad-8f7b-5ba19f56d601</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Auth/Login Fail with Data Driven</testCaseId>
+      <testCaseId>Test Cases/Auth/Login_InvalidCredentials_Fail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

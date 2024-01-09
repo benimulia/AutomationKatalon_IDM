@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Company</name>
+   <tag></tag>
+   <elementGuidId>f074ed7c-538c-4d6e-b5e7-a382608b6869</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//pvu-menu-item[4]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ee2a31e8-0751-4bb9-97b7-efea5146a424</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-flex flex-column justify-content-center align-items-center m-0 panel</value>
+      <webElementGuid>52faf330-7569-48ab-b0c5-ddff174df938</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Company</value>
+      <webElementGuid>75f949dc-5ab3-4d30-9119-1b62f687c1a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-25 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-25&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-25 exclude-footer-main-navbar&quot;]/pvu-left-navigation[@class=&quot;ng-tns-c1063071239-25 ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column justify-content-between pull-left h-100 p-0 panel-left-navigation&quot;]/div[@class=&quot;d-flex flex-column h-100&quot;]/pvu-menu-item[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column justify-content-center align-items-center m-0 panel&quot;]</value>
+      <webElementGuid>38e780e7-780b-409e-b7c3-3b2486c3505b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//pvu-menu-item[4]/div</value>
+      <webElementGuid>58068ba9-31e7-4fd5-9691-0ef0d2cbbf15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Company' or . = 'Company')]</value>
+      <webElementGuid>108e1008-888d-44a0-ba5e-52b8a9a2ccc2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

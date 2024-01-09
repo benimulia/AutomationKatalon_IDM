@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_RECENTLY UPDATED</name>
+   <tag></tag>
+   <elementGuidId>122a6cbc-20bd-4e17-a2f4-8a055de4c570</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//pvu-object-list/div/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d70c94cf-10e8-4dfa-83e8-295d055e3b92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>template-list-group-item align-items-center d-flex p-1 ps-2 h-px-30 tab-header-item</value>
+      <webElementGuid>176375ab-38d1-40c8-b832-4e5843598826</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RECENTLY UPDATED</value>
+      <webElementGuid>45021fff-2bb3-4b74-ab77-d16cbdf34f70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-5 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-5&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-5 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-5 homepage&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-5&quot;]/pvu-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container home-container&quot;]/div[@class=&quot;container-full main-right-container&quot;]/div[@class=&quot;float-start w-100 main-router-holder&quot;]/div[@class=&quot;w-100 h-100 d-flex justify-content-center align-items-center home-view-container&quot;]/div[@class=&quot;w-100 home-screen-wrapper&quot;]/div[@class=&quot;d-md-flex home-screen m-auto&quot;]/div[@class=&quot;h-100 w-100 home-content-tile&quot;]/div[@class=&quot;h-60 w-100 d-md-flex&quot;]/div[@class=&quot;col-md-8 col-lg-8 col-sm-12 p-1 h-min-px-375&quot;]/div[@class=&quot;h-100 w-100 d-flex align-content-stretch flex-column&quot;]/pvu-object-list[@class=&quot;card w-100 h-100 content-card&quot;]/div[@class=&quot;d-flex pvu-home-template-container p-2 h-100&quot;]/div[@class=&quot;w-100 h-100 d-flex&quot;]/div[@class=&quot;tab col-3 template-list-group tab-header h-100 p-2&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;template-list-group-item align-items-center d-flex p-1 ps-2 h-px-30 tab-header-item&quot;]</value>
+      <webElementGuid>9d620a6f-1a82-4745-af1c-eca64c779794</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//pvu-object-list/div/div/div/div/div[2]</value>
+      <webElementGuid>8a058852-bc6e-470f-ac11-33569e87cab5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'RECENTLY UPDATED' or . = 'RECENTLY UPDATED')]</value>
+      <webElementGuid>2f029570-665f-42ac-b44c-cbf463e1166b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

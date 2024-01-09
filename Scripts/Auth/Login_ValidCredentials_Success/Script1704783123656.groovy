@@ -24,20 +24,25 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_UserName'), GlobalVariable.USERNAME)
+WebUI.setText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_UserName'), username)
 
-'given wrong password.\r\nvalid : Password1\r\ngiven : password1'
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_Password'), 
-    '8SQVv/p9jVRYfSV/eMGvjg==')
+    password)
 
 WebUI.click(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/button_Sign In'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Welcome to the Petrolink Digital Well File/span_Sign in to PetroVue'), 0)
+actual_url = WebUI.getUrl()
 
-WebUI.verifyElementPresent(findTestObject('Page_Welcome to the Petrolink Digital Well File/span_Invalid Username or Password'), 
-    0)
+'this step for verify url, means user login successfuly'
+WebUI.verifyMatch(actual_url, GlobalVariable.URL, false)
 
-KeywordUtil.markPassed('Login Failed. Test Case Passed.')
+WebUI.waitForPageLoad(300)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_IDM/span_Welcome to IDM'), 0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_IDM/span_Welcome to IDM'), 'Welcome to IDM')
+
+KeywordUtil.markPassed('Login Successfully. Test Case Passed.')
 
 WebUI.closeBrowser()
 
