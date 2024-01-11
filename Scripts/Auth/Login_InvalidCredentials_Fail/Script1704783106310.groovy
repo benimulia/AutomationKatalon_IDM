@@ -38,5 +38,3 @@ WebUI.verifyElementPresent(findTestObject('Page_Welcome to the Petrolink Digital
 
 KeywordUtil.markPassed('Login Failed. Test Case Passed.')
 
-WebUI.closeBrowser()
-

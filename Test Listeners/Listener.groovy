@@ -29,18 +29,21 @@ class Listener {
 	 */
 	@BeforeTestCase
 	def BeforeTestCase(TestCaseContext testCaseContext) {	
-		WebUI.openBrowser('')
+		if (!(testCaseContext.getTestCaseId().contains("Login"))) {
+			WebUI.openBrowser('')
+			
+			WebUI.maximizeWindow()
+			
+			WebUI.navigateToUrl(GlobalVariable.URL)
+			
+			WebUI.setText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_UserName'), GlobalVariable.USERNAME)
+			
+			WebUI.setEncryptedText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_Password'),
+				GlobalVariable.PASSWORD)
+			
+			WebUI.click(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/button_Sign In'))
+		}
 		
-		WebUI.maximizeWindow()
-		
-		WebUI.navigateToUrl(GlobalVariable.URL)		
-		
-		WebUI.setText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_UserName'), GlobalVariable.USERNAME)
-		
-		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_Password'),
-			GlobalVariable.PASSWORD)
-		
-		WebUI.click(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/button_Sign In'))
 	}
 
 	/**

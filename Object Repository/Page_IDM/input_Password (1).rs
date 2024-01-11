@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_UserName</name>
+   <name>input_Password (1)</name>
    <tag></tag>
-   <elementGuidId>14ba9c9a-919c-4ed4-9344-e5b6def1107a</elementGuidId>
+   <elementGuidId>c77c06dd-fcb3-416a-9dbd-26e6d093add6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='PB__PageTemplate_usernameTextBox']</value>
+         <value>//input[@id='PB__PageTemplate_passwordTextBox']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#PB__PageTemplate_usernameTextBox</value>
+         <value>#PB__PageTemplate_passwordTextBox</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b3acc694-0de5-417b-ad52-e17015c5e6fd</webElementGuid>
+      <webElementGuid>d80855b6-f17c-44c5-ac73-1078b54a1a05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>29ddd984-0a70-402f-8357-661532c5a080</webElementGuid>
+      <value>password</value>
+      <webElementGuid>58ebbe19-882d-4496-8850-c95797132f5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>PB__PageTemplate_usernameTextBox</value>
-      <webElementGuid>94e5097b-adea-4377-a6a6-01ecfe4b7f77</webElementGuid>
+      <value>PB__PageTemplate_passwordTextBox</value>
+      <webElementGuid>292e6d82-e4c7-46a5-a31f-3ca69f318f35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,23 +46,23 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control text-box</value>
-      <webElementGuid>5372c815-a77d-41a6-ac79-88fdd36f8355</webElementGuid>
+      <webElementGuid>d71639ea-58a3-4baa-9f7f-b386d218cd96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>UserName</value>
-      <webElementGuid>e1827c43-06f6-453e-b197-40d5d6e7e396</webElementGuid>
+      <value>Password</value>
+      <webElementGuid>ca562119-c12b-4cc5-8602-4f5345d95bf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>067f7af5-d506-465a-9a98-f1dd62d2cebe</webElementGuid>
+      <value>2</value>
+      <webElementGuid>42dcffda-f116-452e-b03e-fbb14cb591d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,46 +70,46 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>c58d8d58-ed3f-4751-92ee-4d7360213c27</webElementGuid>
+      <webElementGuid>032a02a3-8f66-4027-bbfc-1c1fddda8281</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;PB__PageTemplate_usernameTextBox&quot;)</value>
-      <webElementGuid>505e6e54-5b7f-4aec-87bf-d096f31fb8cb</webElementGuid>
+      <value>id(&quot;PB__PageTemplate_passwordTextBox&quot;)</value>
+      <webElementGuid>d1780116-c844-4261-8dfa-796aa1c488fc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='PB__PageTemplate_usernameTextBox']</value>
-      <webElementGuid>da050274-6260-4a52-a92a-a9f232651b7a</webElementGuid>
+      <value>//input[@id='PB__PageTemplate_passwordTextBox']</value>
+      <webElementGuid>ec9911ec-6cb6-4063-b4d3-37efeea0a2c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='loginForm']/div/input</value>
-      <webElementGuid>65e55296-02ef-49ce-99ed-a8a2749bd082</webElementGuid>
+      <value>//form[@id='loginForm']/div[2]/input</value>
+      <webElementGuid>d99528da-f567-4502-85f9-36627e64218b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>4f845504-f4c4-4e56-8a67-8db0ca64270a</webElementGuid>
+      <value>//div[2]/input</value>
+      <webElementGuid>746d7f15-f9e7-4542-8fb1-bade7a1e0ff4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'PB__PageTemplate_usernameTextBox' and @name = 'UserName']</value>
-      <webElementGuid>8accb2e9-9e74-4aab-9677-4098688adecf</webElementGuid>
+      <value>//input[@type = 'password' and @id = 'PB__PageTemplate_passwordTextBox' and @name = 'Password']</value>
+      <webElementGuid>9a6ad29b-62d8-4d76-822a-bf2f79e16875</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

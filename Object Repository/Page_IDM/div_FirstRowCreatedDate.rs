@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_FirstRowCreatedDate</name>
+   <tag></tag>
+   <elementGuidId>d51c40c9-95ce-4fa0-ab38-68e92bd307bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//pvu-root//pvu-home//pvu-object-list//pvu-grid//pvu-grid-body//tr[1]//td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ad997a13-15a3-4f8e-8070-3cd515177c7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-flex flex-column justify-content-center align-items-center m-0 panel</value>
+      <webElementGuid>79e47575-85d1-410f-b732-234aee9d8b48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Audit Trail</value>
+      <webElementGuid>afec099a-e96b-4085-bd87-895e6cc12a76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-31 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-31&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-31 exclude-footer-main-navbar&quot;]/pvu-left-navigation[@class=&quot;ng-tns-c1063071239-31 ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column justify-content-between pull-left h-100 p-0 panel-left-navigation&quot;]/div[@class=&quot;d-flex flex-column h-100&quot;]/pvu-menu-item[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column justify-content-center align-items-center m-0 panel&quot;]</value>
+      <webElementGuid>430ff7e7-ad7f-46e6-b8bc-33a2ed827010</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//pvu-menu-item[5]/div</value>
+      <webElementGuid>ae8f3db8-1514-46a3-897c-6a8ab82e963b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Audit Trail' or . = 'Audit Trail')]</value>
+      <webElementGuid>755fe871-03ad-486a-9069-e39ef02bf6a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

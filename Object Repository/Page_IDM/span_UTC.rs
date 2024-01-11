@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_UTC</name>
+   <tag></tag>
+   <elementGuidId>f4e074f6-8e37-4ec9-a09b-f6b6660b40ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.timezone</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6651210c-2825-42b2-81b7-0af4a66b19ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>timezone</value>
+      <webElementGuid>700eeaf7-3af1-4b15-bb8e-873c33743065</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UTC+07:00</value>
+      <webElementGuid>08892c5a-3bcd-4fdf-94e3-2a93e3710026</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/pvu-footer[@class=&quot;ng-tns-c1361803851-0 ng-star-inserted&quot;]/footer[@class=&quot;footer d-flex justify-content-between align-items-center user-select-none ps-2 pe-2&quot;]/div[@class=&quot;right-block position-relative&quot;]/pvu-timezone-settings-container[@class=&quot;d-inline-block&quot;]/div[1]/span[@class=&quot;timezone&quot;]</value>
+      <webElementGuid>1b6dc664-b41f-4c6b-9d25-e5a247af4408</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[3]</value>
+      <webElementGuid>f88ecdf8-94a6-4508-a682-7ab1de071d33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'UTC+07:00' or . = 'UTC+07:00')]</value>
+      <webElementGuid>1b54229b-02d6-424f-8199-828bc7ef8ea2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

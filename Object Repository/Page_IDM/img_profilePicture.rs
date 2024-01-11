@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_profilePicture</name>
+   <tag></tag>
+   <elementGuidId>47beb36e-ff38-4cdb-b69a-ab39198b94a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='headerComponent']/pvu-main-navigation/pvu-navbar/nav/div[5]/div/div/pvu-user-menu/div/div/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.avatar.avatar-btn.avatar-img.ng-star-inserted > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>8a0d6189-cb83-4422-95c6-ca920421af8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://samscvtech8.dev.petrolink.net/petrovue/api/principal/profilepicture/34800e79-06cc-48f5-878a-1a1e7fae12c3</value>
+      <webElementGuid>f3b15f9d-d6ec-4590-aa6e-69b61358fc3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;headerComponent&quot;)/pvu-main-navigation[@class=&quot;ng-tns-c1361803851-0&quot;]/pvu-navbar[1]/nav[@class=&quot;navbar navbar-font pvu-navbar&quot;]/div[@class=&quot;navbar-right-section&quot;]/div[@class=&quot;navbar-right-sub-section d-flex align-items-center&quot;]/div[@class=&quot;navbar-menu-buttons d-flex align-items-center&quot;]/pvu-user-menu[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;position-relative user-menu&quot;]/div[1]/div[@class=&quot;avatar avatar-btn avatar-img ng-star-inserted&quot;]/img[1]</value>
+      <webElementGuid>66c87ad7-db17-463b-b43e-12c489a150ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='headerComponent']/pvu-main-navigation/pvu-navbar/nav/div[5]/div/div/pvu-user-menu/div/div/div/img</value>
+      <webElementGuid>a2802c9c-9273-4263-97ac-f110e3f15622</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://samscvtech8.dev.petrolink.net/petrovue/api/principal/profilepicture/34800e79-06cc-48f5-878a-1a1e7fae12c3')]</value>
+      <webElementGuid>efc3085e-bf57-4a46-a6ee-7c2a7540f33f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img</value>
+      <webElementGuid>af60057d-189b-49be-9c1a-3997955bb7d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://samscvtech8.dev.petrolink.net/petrovue/api/principal/profilepicture/34800e79-06cc-48f5-878a-1a1e7fae12c3']</value>
+      <webElementGuid>fa252459-7ea5-4241-a1d7-74ddfcca8a7a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

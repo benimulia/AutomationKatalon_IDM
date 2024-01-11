@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_UTC_select</name>
+   <tag></tag>
+   <elementGuidId>c26261f6-c25a-416f-a817-7f9f7d1e69c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div[name=&quot;content&quot;] > span.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/pvu-root/pvu-footer/footer/div[2]/pvu-timezone-settings-container/div/div/pvu-timezone-settings/div/div[2]/div[3]/pvu-dropdown-box/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>36599278-6559-4c2f-a1d7-a591b96c2d1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>34867efb-49f1-4146-91c6-0bea0b433cc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+07:00</value>
+      <webElementGuid>587ed98b-e4ff-4910-a408-d330eeb61289</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;iruMGnWIq0ts&quot;)/div[@class=&quot;align-items-center d-flex justify-content-between noBorder text-field&quot;]/div[@class=&quot;form-control non-editable h-100 w-100 text-nowrap ng-star-inserted dropdown-focus&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>8a4c32bf-c3c6-4086-ba90-25e318dca9a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='iruMGnWIq0ts']/div/div/span</value>
+      <webElementGuid>f9388bf8-cc1c-4efb-a698-d2fe105ffafd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//pvu-dropdown-box/div/div/div/span</value>
+      <webElementGuid>10fd0109-d93b-4f89-bbdd-c1352a314c95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '+07:00' or . = '+07:00')]</value>
+      <webElementGuid>bf07a0d4-1db0-4fa5-af81-34cd32bda505</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

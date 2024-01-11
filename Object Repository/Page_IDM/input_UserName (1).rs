@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_UserName</name>
+   <name>input_UserName (1)</name>
    <tag></tag>
-   <elementGuidId>14ba9c9a-919c-4ed4-9344-e5b6def1107a</elementGuidId>
+   <elementGuidId>80b82868-7d5c-4aa9-a627-766c3197177f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b3acc694-0de5-417b-ad52-e17015c5e6fd</webElementGuid>
+      <webElementGuid>b8b93de6-3fcb-42d6-b946-854204828f57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>29ddd984-0a70-402f-8357-661532c5a080</webElementGuid>
+      <webElementGuid>5e43cd5c-5d25-4815-996e-b18855b6f949</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>PB__PageTemplate_usernameTextBox</value>
-      <webElementGuid>94e5097b-adea-4377-a6a6-01ecfe4b7f77</webElementGuid>
+      <webElementGuid>d389a647-efb8-42a4-a456-cee7ad25f04f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control text-box</value>
-      <webElementGuid>5372c815-a77d-41a6-ac79-88fdd36f8355</webElementGuid>
+      <webElementGuid>62517f20-3078-4666-9584-f73240dd792f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>UserName</value>
-      <webElementGuid>e1827c43-06f6-453e-b197-40d5d6e7e396</webElementGuid>
+      <webElementGuid>db6a4bd6-38fd-4bb9-bda5-2bc3a16206de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>067f7af5-d506-465a-9a98-f1dd62d2cebe</webElementGuid>
+      <webElementGuid>cda15ca3-890b-44a0-8fce-90496713e5d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>c58d8d58-ed3f-4751-92ee-4d7360213c27</webElementGuid>
+      <webElementGuid>6916e7df-97de-48ec-8645-d4bbe79574d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;PB__PageTemplate_usernameTextBox&quot;)</value>
-      <webElementGuid>505e6e54-5b7f-4aec-87bf-d096f31fb8cb</webElementGuid>
+      <webElementGuid>5dc0b7bc-66f2-41a5-8339-1f2dcd036b8e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='PB__PageTemplate_usernameTextBox']</value>
-      <webElementGuid>da050274-6260-4a52-a92a-a9f232651b7a</webElementGuid>
+      <webElementGuid>bd69582f-839d-4bf0-8398-1e8ea906e7fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='loginForm']/div/input</value>
-      <webElementGuid>65e55296-02ef-49ce-99ed-a8a2749bd082</webElementGuid>
+      <webElementGuid>4c1ee7d0-7647-4f2d-a28f-48ea6210a733</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>4f845504-f4c4-4e56-8a67-8db0ca64270a</webElementGuid>
+      <webElementGuid>49a26a19-3a10-4f51-8886-71df858bcd10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'PB__PageTemplate_usernameTextBox' and @name = 'UserName']</value>
-      <webElementGuid>8accb2e9-9e74-4aab-9677-4098688adecf</webElementGuid>
+      <webElementGuid>1889b975-c5dc-447c-8172-9b887c7ea769</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

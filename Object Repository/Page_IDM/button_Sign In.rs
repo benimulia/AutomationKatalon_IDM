@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_UserName</name>
+   <name>button_Sign In</name>
    <tag></tag>
-   <elementGuidId>14ba9c9a-919c-4ed4-9344-e5b6def1107a</elementGuidId>
+   <elementGuidId>f90e9978-867b-4b87-8004-f3abbefdbe62</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='PB__PageTemplate_usernameTextBox']</value>
+         <value>//button[@id='PB__PageTemplate_loginButton']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#PB__PageTemplate_usernameTextBox</value>
+         <value>#PB__PageTemplate_loginButton</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>b3acc694-0de5-417b-ad52-e17015c5e6fd</webElementGuid>
+      <value>button</value>
+      <webElementGuid>61bf795f-29b0-4ccc-8f18-36b2c740b3bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>29ddd984-0a70-402f-8357-661532c5a080</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>7e3dfaf4-428b-44b1-a405-5df86e866135</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>PB__PageTemplate_usernameTextBox</value>
-      <webElementGuid>94e5097b-adea-4377-a6a6-01ecfe4b7f77</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control text-box</value>
-      <webElementGuid>5372c815-a77d-41a6-ac79-88fdd36f8355</webElementGuid>
+      <value>PB__PageTemplate_loginButton</value>
+      <webElementGuid>64831140-9b86-4bca-b96f-63ede7398d62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>UserName</value>
-      <webElementGuid>e1827c43-06f6-453e-b197-40d5d6e7e396</webElementGuid>
+      <value>PB$_PageTemplate$loginButton</value>
+      <webElementGuid>fcd68d71-639f-46c2-903c-e93bbc01f2bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100 btn main-button button-primary</value>
+      <webElementGuid>31e96c8c-1dc6-4068-bb94-544d97817314</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>067f7af5-d506-465a-9a98-f1dd62d2cebe</webElementGuid>
+      <value>3</value>
+      <webElementGuid>492c9fc7-d866-4150-bfba-5a1646829f8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>text</name>
       <type>Main</type>
-      <value>off</value>
-      <webElementGuid>c58d8d58-ed3f-4751-92ee-4d7360213c27</webElementGuid>
+      <value>Sign In</value>
+      <webElementGuid>187547c4-323e-4809-a08a-48e47875acaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;PB__PageTemplate_usernameTextBox&quot;)</value>
-      <webElementGuid>505e6e54-5b7f-4aec-87bf-d096f31fb8cb</webElementGuid>
+      <value>id(&quot;PB__PageTemplate_loginButton&quot;)</value>
+      <webElementGuid>89579a5d-d2c1-45c7-a23c-73e24585cc3a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='PB__PageTemplate_usernameTextBox']</value>
-      <webElementGuid>da050274-6260-4a52-a92a-a9f232651b7a</webElementGuid>
+      <value>//button[@id='PB__PageTemplate_loginButton']</value>
+      <webElementGuid>490754f4-0fce-4ab5-8de6-e8c378b245df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='loginForm']/div/input</value>
-      <webElementGuid>65e55296-02ef-49ce-99ed-a8a2749bd082</webElementGuid>
+      <value>//form[@id='loginForm']/div[3]/button</value>
+      <webElementGuid>2d54fa9f-f4c7-4caf-a90c-ae7f16344741</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>4f845504-f4c4-4e56-8a67-8db0ca64270a</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>8deaad19-6942-411d-b0cf-e4a4d4effb61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'PB__PageTemplate_usernameTextBox' and @name = 'UserName']</value>
-      <webElementGuid>8accb2e9-9e74-4aab-9677-4098688adecf</webElementGuid>
+      <value>//button[@type = 'submit' and @id = 'PB__PageTemplate_loginButton' and @name = 'PB$_PageTemplate$loginButton' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      <webElementGuid>ccbc6db2-c7e1-4381-9973-38f08b7e09c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Apply</name>
+   <tag></tag>
+   <elementGuidId>0a281e11-58f2-46d0-8801-69319987a58e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-sm.btn-default.ms-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ce24f250-adc5-4e16-8867-2c9c7f795e7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-default ms-1</value>
+      <webElementGuid>d9dff45c-b317-4a37-897e-bebf1fe5d6e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Apply</value>
+      <webElementGuid>1d5cb9bd-d3c4-42bc-84df-09074290aa5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/pvu-footer[@class=&quot;ng-tns-c1361803851-0 ng-star-inserted&quot;]/footer[@class=&quot;footer d-flex justify-content-between align-items-center user-select-none ps-2 pe-2&quot;]/div[@class=&quot;right-block position-relative&quot;]/pvu-timezone-settings-container[@class=&quot;d-inline-block&quot;]/div[1]/div[@class=&quot;time-zone-setting-container position-absolute&quot;]/pvu-timezone-settings[1]/div[@class=&quot;time-zone-setting text-start&quot;]/div[@class=&quot;time-zone-options w-100&quot;]/div[@class=&quot;w-100 action-btn&quot;]/button[@class=&quot;btn btn-sm btn-default ms-1&quot;]</value>
+      <webElementGuid>02d68b6b-9b75-4452-a072-c7176b0cf811</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>bff22f07-0552-4305-9986-fa6f7edb076f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Apply' or . = 'Apply')]</value>
+      <webElementGuid>efcbef0e-97c2-4b24-bd8d-78588036ed2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
