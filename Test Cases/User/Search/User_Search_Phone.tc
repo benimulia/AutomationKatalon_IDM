@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Home_VerifyDashboardObjectVisible</name>
+   <name>User_Search_Phone</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>693a07cb-1ae8-4ab7-b0f6-751dd46f8919</testCaseGuid>
+   <testCaseGuid>e54485eb-a359-423a-8907-b98d63e07576</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>1e117fe8-4ca5-4d73-9575-768a368ca972</id>
@@ -18,25 +18,25 @@
       <testDataLinkId>1e117fe8-4ca5-4d73-9575-768a368ca972</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>username</value>
-      <variableId>1dd4297b-402d-4893-b496-dd2e6369d2ee</variableId>
+      <variableId>0626b9a6-3bab-47f8-b563-2b92540e52c7</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>1e117fe8-4ca5-4d73-9575-768a368ca972</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>password</value>
-      <variableId>7431039a-8d61-49d8-9c0a-5cf198deaceb</variableId>
+      <variableId>5f6040d4-0e31-452f-ad0b-13f37ba834c5</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>1dd4297b-402d-4893-b496-dd2e6369d2ee</id>
+      <id>0626b9a6-3bab-47f8-b563-2b92540e52c7</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7431039a-8d61-49d8-9c0a-5cf198deaceb</id>
+      <id>5f6040d4-0e31-452f-ad0b-13f37ba834c5</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

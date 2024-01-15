@@ -6,12 +6,12 @@
    <elementGuidId>f90e9978-867b-4b87-8004-f3abbefdbe62</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='PB__PageTemplate_loginButton']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#PB__PageTemplate_loginButton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='PB__PageTemplate_loginButton']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>61bf795f-29b0-4ccc-8f18-36b2c740b3bc</webElementGuid>
+      <webElementGuid>96fffcb0-6b40-434a-bd85-ff019cb0d917</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>7e3dfaf4-428b-44b1-a405-5df86e866135</webElementGuid>
+      <webElementGuid>84831ac2-e1a6-4da6-8725-72125c0dcf87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>PB__PageTemplate_loginButton</value>
-      <webElementGuid>64831140-9b86-4bca-b96f-63ede7398d62</webElementGuid>
+      <webElementGuid>847c7c4a-2c08-4ada-b0e8-8c98e41d3000</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>PB$_PageTemplate$loginButton</value>
-      <webElementGuid>fcd68d71-639f-46c2-903c-e93bbc01f2bb</webElementGuid>
+      <webElementGuid>70ae3b63-ef1e-4f49-bef8-c26c2269d558</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-100 btn main-button button-primary</value>
-      <webElementGuid>31e96c8c-1dc6-4068-bb94-544d97817314</webElementGuid>
+      <webElementGuid>bbc00654-eddc-4dc8-9a25-21a36aa5f2a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>492c9fc7-d866-4150-bfba-5a1646829f8b</webElementGuid>
+      <webElementGuid>35a7a3e8-7f52-4365-9d57-9a7c87f0209d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign In</value>
-      <webElementGuid>187547c4-323e-4809-a08a-48e47875acaa</webElementGuid>
+      <webElementGuid>eb340d5d-962d-4859-b2aa-b989f2d340fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;PB__PageTemplate_loginButton&quot;)</value>
-      <webElementGuid>89579a5d-d2c1-45c7-a23c-73e24585cc3a</webElementGuid>
+      <webElementGuid>5dc5d293-4d94-4475-846b-011c771fa2e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='PB__PageTemplate_loginButton']</value>
-      <webElementGuid>490754f4-0fce-4ab5-8de6-e8c378b245df</webElementGuid>
+      <webElementGuid>1cc496d0-79df-4acd-b2d6-bcda20ea20e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='loginForm']/div[3]/button</value>
-      <webElementGuid>2d54fa9f-f4c7-4caf-a90c-ae7f16344741</webElementGuid>
+      <webElementGuid>3d3e96c0-2c33-4bdf-bc27-4aad5cdb2044</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>8deaad19-6942-411d-b0cf-e4a4d4effb61</webElementGuid>
+      <webElementGuid>b1a0b34e-34e9-46e1-8f88-ca48cadc35a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and @id = 'PB__PageTemplate_loginButton' and @name = 'PB$_PageTemplate$loginButton' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>ccbc6db2-c7e1-4381-9973-38f08b7e09c8</webElementGuid>
+      <webElementGuid>dc1368bd-d8e6-4bad-ac9e-a2205f1e8210</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

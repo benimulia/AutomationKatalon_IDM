@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b3acc694-0de5-417b-ad52-e17015c5e6fd</webElementGuid>
+      <webElementGuid>977f1557-e9bb-4333-bb39-abe096716f5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>29ddd984-0a70-402f-8357-661532c5a080</webElementGuid>
+      <webElementGuid>f0819ca9-ca3f-4ebb-b06b-35817c624442</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>PB__PageTemplate_usernameTextBox</value>
-      <webElementGuid>94e5097b-adea-4377-a6a6-01ecfe4b7f77</webElementGuid>
+      <webElementGuid>82a43699-603d-406b-b00d-22618b33280c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control text-box</value>
-      <webElementGuid>5372c815-a77d-41a6-ac79-88fdd36f8355</webElementGuid>
+      <webElementGuid>84a6d542-7f58-4b07-95c7-aa8a6905c981</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>UserName</value>
-      <webElementGuid>e1827c43-06f6-453e-b197-40d5d6e7e396</webElementGuid>
+      <webElementGuid>6278dbd5-36cb-4b6e-96a5-4655e7078ac8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>067f7af5-d506-465a-9a98-f1dd62d2cebe</webElementGuid>
+      <webElementGuid>2b71b265-7227-46dc-a2a9-51be0a22cfa6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>c58d8d58-ed3f-4751-92ee-4d7360213c27</webElementGuid>
+      <webElementGuid>8cc18cb1-fd70-405e-bba8-705a93344c91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;PB__PageTemplate_usernameTextBox&quot;)</value>
-      <webElementGuid>505e6e54-5b7f-4aec-87bf-d096f31fb8cb</webElementGuid>
+      <webElementGuid>9bdc3051-c266-498a-a79f-60f51f33c3d2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='PB__PageTemplate_usernameTextBox']</value>
-      <webElementGuid>da050274-6260-4a52-a92a-a9f232651b7a</webElementGuid>
+      <webElementGuid>80ec9091-bfee-4f0c-aa05-b403c1a96bce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='loginForm']/div/input</value>
-      <webElementGuid>65e55296-02ef-49ce-99ed-a8a2749bd082</webElementGuid>
+      <webElementGuid>8d90d739-7cd1-4f17-b789-e83269584cfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>4f845504-f4c4-4e56-8a67-8db0ca64270a</webElementGuid>
+      <webElementGuid>276442d7-569a-4512-907a-d72be8abf316</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'PB__PageTemplate_usernameTextBox' and @name = 'UserName']</value>
-      <webElementGuid>8accb2e9-9e74-4aab-9677-4098688adecf</webElementGuid>
+      <webElementGuid>c4a19af5-929c-4a05-b210-9abe20f6e821</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_user_name</name>
+   <tag></tag>
+   <elementGuidId>8146c900-b8a4-4f14-b4a7-81b7411233f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.min-h-px-26.d-flex.position-relative.align-items-center.cell-overlay</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//pvu-grid-cell-username/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d8085f82-0126-4910-83f8-6f32962e7ae4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>min-h-px-26 d-flex position-relative align-items-center cell-overlay</value>
+      <webElementGuid>a9dea1c8-1a4e-4791-b41e-cb1bb042af96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> automation_user </value>
+      <webElementGuid>27238217-3b10-4760-af73-262fb97af128</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-7 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-7&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-7 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-7&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-7&quot;]/pvu-user[@class=&quot;ng-star-inserted&quot;]/pvu-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 card&quot;]/div[@class=&quot;container-full pt-2 px-3&quot;]/div[@class=&quot;position-relative&quot;]/pvu-grid[@class=&quot;d-block w-100 h-100&quot;]/div[@class=&quot;pvu-grid-container w-100 h-100 header-hidden-grid footer-hidden-grid ng-star-inserted&quot;]/div[@class=&quot;grid-body-container header-hidden footer-hidden&quot;]/pvu-grid-body[1]/table[@class=&quot;grid-body table table-hover&quot;]/tbody[1]/tr[@class=&quot;delete-button-disabled row-data ng-star-inserted&quot;]/td[@class=&quot;grid-cell ng-star-inserted&quot;]/div[@class=&quot;text-truncate w-100&quot;]/pvu-grid-cell[@class=&quot;ng-star-inserted&quot;]/pvu-formatter-component-cell[@class=&quot;ng-star-inserted&quot;]/pvu-grid-cell-username[@class=&quot;ng-star-inserted&quot;]/span[@class=&quot;min-h-px-26 d-flex position-relative align-items-center cell-overlay&quot;]</value>
+      <webElementGuid>027d0a2a-632b-4a8e-873c-004b8e19aa0c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//pvu-grid-cell-username/span</value>
+      <webElementGuid>7feebcd2-28d6-454a-ab28-1f0a33c0eb09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' automation_user ' or . = ' automation_user ')]</value>
+      <webElementGuid>145e89e0-9db7-4f14-96e9-6fdba3f059d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span[2]</value>
+      <webElementGuid>a0c7e4d6-b097-4044-a62d-dfbd28a9f549</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

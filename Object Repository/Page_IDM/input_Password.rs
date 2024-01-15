@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d51cc0c1-454b-4478-89f4-ea155ba5c0c3</webElementGuid>
+      <webElementGuid>58f74f0a-266c-4807-b548-38a927fc00f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>99f7a3ef-ccd3-46dd-8618-3c7c2960cf24</webElementGuid>
+      <webElementGuid>0610cdcd-149c-4a4d-b908-ceba845d3c4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>PB__PageTemplate_passwordTextBox</value>
-      <webElementGuid>26355953-5bee-4d5c-b516-8ec4acc4252b</webElementGuid>
+      <webElementGuid>021b5c4e-d906-449b-8e0b-d4622fc4d7cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control text-box</value>
-      <webElementGuid>2424bba7-9761-4e9c-b9fe-6ce0f7872f7e</webElementGuid>
+      <webElementGuid>2ce304e3-a137-4820-83be-ae65c282e316</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Password</value>
-      <webElementGuid>27d92bcf-7f82-4bd9-a13e-caef6981f5ea</webElementGuid>
+      <webElementGuid>3ed879c2-1cc3-4d84-8890-268dc2607297</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>4fff795d-ca63-44bb-9870-55a38df7832a</webElementGuid>
+      <webElementGuid>81920f0a-1ab8-4dfe-b978-cc0f92ae7f2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>969c9886-2d73-4549-93eb-43f8f8f018cb</webElementGuid>
+      <webElementGuid>97058990-5912-4e3f-8169-990725d81216</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;PB__PageTemplate_passwordTextBox&quot;)</value>
-      <webElementGuid>334dacc6-64e0-4010-9a3d-2e8f87be57f1</webElementGuid>
+      <webElementGuid>a38d18f2-8e69-4e16-b39b-c2c7e428429f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='PB__PageTemplate_passwordTextBox']</value>
-      <webElementGuid>c703c14a-25dd-4ed5-a07d-f7502a0c1c55</webElementGuid>
+      <webElementGuid>3ba928b6-9f8a-438d-8746-8ab850e9bdff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='loginForm']/div[2]/input</value>
-      <webElementGuid>522b384d-8733-4fcd-8df2-1dda6d088413</webElementGuid>
+      <webElementGuid>fe870639-7313-44a9-9f0c-45596c1054b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>6417feda-c744-4181-9f8b-987a8f0ac57c</webElementGuid>
+      <webElementGuid>5741101c-534a-4376-9dc6-7c065bc80cb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @id = 'PB__PageTemplate_passwordTextBox' and @name = 'Password']</value>
-      <webElementGuid>e065ef49-9934-4c59-aa94-3fd247ef5d70</webElementGuid>
+      <webElementGuid>5d6a93f2-950b-41ed-9031-bfba78ba5673</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
