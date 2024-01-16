@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_user_status</name>
+   <tag></tag>
+   <elementGuidId>350134b3-d4e7-4651-a547-45db1bf2074d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>dcfdb6ec-3f19-4284-b47f-6b2eab3369be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>grid-cell ng-star-inserted</value>
+      <webElementGuid>63c2f194-893d-45ee-bc16-e506d6ced7d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> automation_user </value>
+      <webElementGuid>169b00f5-58e6-4b4b-a32a-1f2d64a4c9f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-7 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-7&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-7 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-7&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-7&quot;]/pvu-user[@class=&quot;ng-star-inserted&quot;]/pvu-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 card&quot;]/div[@class=&quot;container-full pt-2 px-3&quot;]/div[@class=&quot;position-relative&quot;]/pvu-grid[@class=&quot;d-block w-100 h-100&quot;]/div[@class=&quot;pvu-grid-container w-100 h-100 header-hidden-grid footer-hidden-grid ng-star-inserted&quot;]/div[@class=&quot;grid-body-container header-hidden footer-hidden&quot;]/pvu-grid-body[1]/table[@class=&quot;grid-body table table-hover&quot;]/tbody[1]/tr[@class=&quot;delete-button-disabled row-data ng-star-inserted&quot;]/td[@class=&quot;grid-cell ng-star-inserted&quot;]</value>
+      <webElementGuid>e48834b8-b9dd-4e36-9d04-1cb9dce65759</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]</value>
+      <webElementGuid>4e1588dd-5796-4ef7-9afb-a19403f063fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = ' automation_user ' or . = ' automation_user ')]</value>
+      <webElementGuid>f0bc5152-d2bb-4ad4-9044-7d274d94cdd9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
