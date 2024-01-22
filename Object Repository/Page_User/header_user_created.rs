@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>get all name in user table exclude Administrator</description>
-   <name>td_user_collection_name</name>
+   <description></description>
+   <name>header_user_created</name>
    <tag></tag>
-   <elementGuidId>c5401563-9557-47a3-8f3e-327df2cf3bbd</elementGuidId>
+   <elementGuidId>f09e1bb1-09aa-44d4-b1b9-fbfd18455f29</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table//tr[position() > 1]//td[@class='grid-cell ng-star-inserted'][1]</value>
+         <value>//a[contains(@class,'grid-header-center') and contains(text(), 'Created')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>get all name in user table exclude Administrator</description>
-   <name>td_user_collection_name</name>
+   <description>to hide / unhide column 'name' in user table</description>
+   <name>checkbox_filter_name</name>
    <tag></tag>
-   <elementGuidId>c5401563-9557-47a3-8f3e-327df2cf3bbd</elementGuidId>
+   <elementGuidId>dc324110-cfce-441f-aa16-2bca6b15d7c7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table//tr[position() > 1]//td[@class='grid-cell ng-star-inserted'][1]</value>
+         <value>//div[contains(@class,'ng-trigger')]/ul/li[1]//span</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

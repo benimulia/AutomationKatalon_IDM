@@ -46,4 +46,11 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_IDM/col_User_S
 
 KeywordUtil.markPassed('User columns are present')
 
+WebUI.click(findTestObject('Page_User/menu_btn_filter'))
+
+WebUI.click(findTestObject('Page_User/checkbox_filter_name'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementNotPresent(findTestObject('Page_User/header_user_name'), 0)
 

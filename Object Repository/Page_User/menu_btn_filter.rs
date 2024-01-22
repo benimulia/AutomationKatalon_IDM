@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>get all name in user table exclude Administrator</description>
-   <name>td_user_collection_name</name>
+   <description>hamburger button on the top of user table</description>
+   <name>menu_btn_filter</name>
    <tag></tag>
-   <elementGuidId>c5401563-9557-47a3-8f3e-327df2cf3bbd</elementGuidId>
+   <elementGuidId>e147ab08-c288-4512-81e2-c5895921fd5e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table//tr[position() > 1]//td[@class='grid-cell ng-star-inserted'][1]</value>
+         <value>//a[contains(@class,'menu-btn')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

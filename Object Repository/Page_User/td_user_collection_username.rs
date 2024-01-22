@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description>get all name in user table exclude Administrator</description>
-   <name>td_user_collection_name</name>
+   <name>td_user_collection_username</name>
    <tag></tag>
-   <elementGuidId>c5401563-9557-47a3-8f3e-327df2cf3bbd</elementGuidId>
+   <elementGuidId>4ad2ce34-7746-4683-b215-24bd727a0abb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table//tr[position() > 1]//td[@class='grid-cell ng-star-inserted'][1]</value>
+         <value>//table//tr[position() > 1]//td[@class='grid-cell ng-star-inserted'][2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
