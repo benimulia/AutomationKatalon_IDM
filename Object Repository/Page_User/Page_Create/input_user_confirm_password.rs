@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_user_confirm_password</name>
+   <tag></tag>
+   <elementGuidId>455578c3-bce6-4b74-b1d5-45078c95410d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='password'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-input-holder.h-100.w-100.focused > input.input-field.ps-2.bg-navbar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f419cfff-0f82-468e-832f-fbb9ba97bb14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>new-password</value>
+      <webElementGuid>fc1cddae-59eb-4235-95bc-6d4e6c61785d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-field ps-2 bg-navbar</value>
+      <webElementGuid>5b52af85-70ca-4b14-8160-8cd284da8d37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>1c085fc4-592a-4c14-b301-f7ad4b38dcd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-16 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-16&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-16 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-16&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-16&quot;]/pvu-user[@class=&quot;ng-star-inserted&quot;]/pvu-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 container-panel&quot;]/div[@class=&quot;d-flex justify-content-between p-2 top-panel bg-s2 HeightForNewUser&quot;]/div[@class=&quot;form-container&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;d-flex&quot;]/div[1]/div[@class=&quot;form-row row&quot;]/div[@class=&quot;form-group col-md-4 padding-bottom-5px ng-star-inserted&quot;]/pvu-text-box[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-input position-relative text-input-holder bg-navbar text-secondary&quot;]/div[@class=&quot;form-input-holder h-100 w-100 focused&quot;]/input[@class=&quot;input-field ps-2 bg-navbar&quot;]</value>
+      <webElementGuid>ba4c54d5-038d-42a4-9ddd-3e4eca7e4fe0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='password'])[2]</value>
+      <webElementGuid>99e03a7c-9f6f-4fe0-8572-e36c63e5ed7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/pvu-text-box/div/div/input</value>
+      <webElementGuid>48aebd15-3897-409f-bac3-dc746191dd6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'password']</value>
+      <webElementGuid>59a75d07-2f97-4a00-ae5b-7ba0a3a3b489</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

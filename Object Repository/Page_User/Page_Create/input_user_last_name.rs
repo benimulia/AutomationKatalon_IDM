@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_user_last_name</name>
+   <tag></tag>
+   <elementGuidId>3b476fec-fb2f-4566-85e8-c23536723161</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-input-holder.h-100.w-100.focused > input.input-field.ps-2.bg-navbar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f7699b8a-42f4-4cc0-8b2b-4afd6080a063</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>new-password</value>
+      <webElementGuid>82156d84-c646-412b-81fd-74397104f8db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-field ps-2 bg-navbar</value>
+      <webElementGuid>af2372f1-dbad-470e-be56-d2e279f8afd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>f8078fe2-4218-41e7-b5f4-1da7cdf5db6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-16 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-16&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-16 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-16&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-16&quot;]/pvu-user[@class=&quot;ng-star-inserted&quot;]/pvu-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 container-panel&quot;]/div[@class=&quot;d-flex justify-content-between p-2 top-panel bg-s2 HeightForNewUser&quot;]/div[@class=&quot;form-container&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;d-flex&quot;]/div[1]/div[@class=&quot;form-row row&quot;]/div[@class=&quot;form-group col-md-4 padding-bottom-5px&quot;]/pvu-text-box[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;form-input position-relative text-input-holder bg-navbar text-secondary&quot;]/div[@class=&quot;form-input-holder h-100 w-100 focused&quot;]/input[@class=&quot;input-field ps-2 bg-navbar&quot;]</value>
+      <webElementGuid>6b306209-f31e-4dff-a922-fdd6f5f0e518</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[3]</value>
+      <webElementGuid>88a8128a-c423-4a3b-b914-e029c43fe853</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/pvu-text-box/div/div/input</value>
+      <webElementGuid>f77c8bce-f02d-474d-bffa-335d40ef68c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>3dcfa581-3404-444e-b944-97c543ff19a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

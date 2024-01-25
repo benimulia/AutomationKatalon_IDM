@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_user_create_user</name>
+   <tag></tag>
+   <elementGuidId>b43b5716-1680-441f-976f-6367a70d0fed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/em</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>em.pvu-icon-create-user.toolbar-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+      <webElementGuid>527b2538-dcb1-4001-9219-ef2e69244198</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pvu-icon-create-user toolbar-button</value>
+      <webElementGuid>31358bba-e6b5-462b-835d-641163b5a5f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-7 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-7&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-7 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-7&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-7&quot;]/pvu-user[@class=&quot;ng-star-inserted&quot;]/pvu-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 card&quot;]/div[1]/div[@class=&quot;d-flex flex-row-reverse w-100 pt-2 pe-3 pb-1&quot;]/div[@class=&quot;pe-2&quot;]/em[@class=&quot;pvu-icon-create-user toolbar-button&quot;]</value>
+      <webElementGuid>672e5092-906b-403b-9d17-44adadc9bcf8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/em</value>
+      <webElementGuid>672cca2f-b080-471a-aee6-d5b3f45e76e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
