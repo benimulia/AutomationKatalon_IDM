@@ -6,12 +6,11 @@
    <elementGuidId>561dcb53-7710-4c51-95cd-b350ffa800aa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//pvu-menu-item[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d18719a2-bc4a-40af-bc2c-af591c3055db</webElementGuid>
+      <webElementGuid>d997c940-6b81-47f6-9f66-ec038be8ea61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex flex-column justify-content-center align-items-center m-0 panel</value>
-      <webElementGuid>9eb04247-e0f3-4d11-a13c-dcdc0e431285</webElementGuid>
+      <webElementGuid>3cacf8b2-65ab-4be9-a6ca-f46d16bbec99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>User</value>
-      <webElementGuid>6d7bea22-eb37-426d-98b5-474692450308</webElementGuid>
+      <webElementGuid>e6fb1270-3aa3-44af-b013-2c0b92233c9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-5 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-5&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-5 exclude-footer-main-navbar&quot;]/pvu-left-navigation[@class=&quot;ng-tns-c1063071239-5 ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column justify-content-between pull-left h-100 p-0 panel-left-navigation&quot;]/div[@class=&quot;d-flex flex-column h-100&quot;]/pvu-menu-item[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column justify-content-center align-items-center m-0 panel&quot;]</value>
-      <webElementGuid>92a3c54f-2c83-4a04-b4a7-35a4da508616</webElementGuid>
+      <webElementGuid>15890496-dbeb-4c0b-8cef-9879c9950ede</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//pvu-menu-item[2]/div</value>
-      <webElementGuid>b5aa2798-33aa-43ce-85e2-f879137e15af</webElementGuid>
+      <webElementGuid>81b7a348-831b-48df-a24e-adc435f4765d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +61,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'User' or . = 'User')]</value>
-      <webElementGuid>84cf544b-58af-467c-a5a4-3089367d5141</webElementGuid>
+      <webElementGuid>45e2d4c8-d75c-4a7a-9b45-2e1f83e167bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

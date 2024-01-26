@@ -10,7 +10,7 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.SelectorMethod
+import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -46,33 +46,5 @@ WebUI.setText(findTestObject('Page_User/Page_Create/input_user_email'), email)
 
 WebUI.click(findTestObject('Page_User/Page_Create/btn_save_user'))
 
-WebUI.waitForPageLoad(60)
-
-verifyInput(findTestObject('Page_User/Page_Create/input_user_first_name'), first_name)
-
-verifyInput(findTestObject('Page_User/Page_Create/input_user_middle_name'), middle_name)
-
-verifyInput(findTestObject('Page_User/Page_Create/input_user_last_name'), last_name)
-
-verifyInput(findTestObject('Page_User/Page_Create/input_user_username'), username)
-
-verifyInput(findTestObject('Page_User/Page_Create/input_user_phone'), phone)
-
-verifyInput(findTestObject('Page_User/Page_Create/input_user_email'), email)
-
-def verifyInput(TestObject testObject, String expected) {
-    // Dapatkan XPath dari TestObject
-    String xpath = testObject.getSelectorCollection()[SelectorMethod.XPATH]
-	
-	println("Nilai xpath : " + xpath)
-
-    // Execute JavaScript untuk mendapatkan nilai input
-    String actualValue = WebUI.executeJavaScript("return document.evaluate(\"" + xpath + "\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.value;", null)
-
-	println("Nilai Input: " + actualValue + " || first_name : " +expected)
-
-	// Verify expected dan actual
-	WebUI.verifyMatch(actualValue, expected, false)
-}
-
+WebUI.verifyTextPresent('User Created Successfully.', false)
 

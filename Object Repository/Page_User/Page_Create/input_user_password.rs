@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='password']</value>
+         <value>(//input[@type='password'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a396d92a-63a9-4cad-add1-1fd29f8a2307</webElementGuid>
+      <webElementGuid>f507bebe-482d-44e7-9ffe-30226c88257e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>bf04d2bd-6aa3-415e-af23-6c40215fbe69</webElementGuid>
+      <webElementGuid>cf2d8d8c-892c-42c2-a0b1-821605f87dcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input-field ps-2 bg-navbar</value>
-      <webElementGuid>e8cf751b-4170-4613-b4fa-b6ca02b86e96</webElementGuid>
+      <webElementGuid>7fa35931-bc74-4691-bb49-a9a2397134d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>fa6097e4-0bf8-475c-9adf-164fa10fc47d</webElementGuid>
+      <webElementGuid>1c9cfd20-35a7-4ac3-a244-bba85e9a039e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-16 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-16&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-16 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-16&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-16&quot;]/pvu-user[@class=&quot;ng-star-inserted&quot;]/pvu-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 container-panel&quot;]/div[@class=&quot;d-flex justify-content-between p-2 top-panel bg-s2 HeightForNewUser&quot;]/div[@class=&quot;form-container&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;d-flex&quot;]/div[1]/div[@class=&quot;form-row row&quot;]/div[@class=&quot;form-group col-md-4 padding-bottom-5px ng-star-inserted&quot;]/pvu-text-box[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-input position-relative text-input-holder bg-navbar text-secondary&quot;]/div[@class=&quot;form-input-holder h-100 w-100 focused&quot;]/input[@class=&quot;input-field ps-2 bg-navbar&quot;]</value>
-      <webElementGuid>d95e6c5c-141e-4ebd-90bb-3cdb3faf0d26</webElementGuid>
+      <webElementGuid>6782da9d-c81f-4c2d-9df4-1b57d28a0d80</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='password']</value>
-      <webElementGuid>9eea0bd2-e51c-4e85-aa90-84c4c37c38ea</webElementGuid>
+      <webElementGuid>a3570cc8-19e4-427b-aef1-f1953e433e56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/pvu-text-box/div/div/input</value>
-      <webElementGuid>c6b39611-7f03-49ea-8d89-1dd1fe054086</webElementGuid>
+      <webElementGuid>cde9941c-9109-4c81-be6f-2d43827735ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password']</value>
-      <webElementGuid>7e1d50a1-6916-4c65-a8ea-6a9e6df7dacd</webElementGuid>
+      <webElementGuid>cf3a0de6-746a-4962-b90f-f26511257665</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

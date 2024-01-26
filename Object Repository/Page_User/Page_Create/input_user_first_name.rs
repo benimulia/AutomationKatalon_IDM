@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='text']</value>
+         <value>(//input[@type='text'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a43ae878-85df-466f-96d3-024c336ab41d</webElementGuid>
+      <webElementGuid>502552a7-1d9e-4e5e-b93e-bfc42447b9e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>04e48646-36bc-4183-a027-a2e4fd9457e6</webElementGuid>
+      <webElementGuid>6e08c336-d322-47e5-b0a4-c241db76a7e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input-field ps-2 bg-navbar</value>
-      <webElementGuid>981bb8ae-d624-4439-9edb-ea80867e35ea</webElementGuid>
+      <webElementGuid>56a33977-1d6f-46d6-8b51-ec904666b12d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>32bf6108-ad50-433a-a9c4-aceb57de6cd7</webElementGuid>
+      <webElementGuid>18163889-6aac-4c5c-9c37-0bc1ca137770</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-16 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-16&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-16 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-16&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-16&quot;]/pvu-user[@class=&quot;ng-star-inserted&quot;]/pvu-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 container-panel&quot;]/div[@class=&quot;d-flex justify-content-between p-2 top-panel bg-s2 HeightForNewUser&quot;]/div[@class=&quot;form-container&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;d-flex&quot;]/div[1]/div[@class=&quot;form-row row&quot;]/div[@class=&quot;form-group col-md-4 padding-bottom-5px&quot;]/pvu-text-box[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-input position-relative text-input-holder bg-navbar text-secondary&quot;]/div[@class=&quot;form-input-holder h-100 w-100 focused&quot;]/input[@class=&quot;input-field ps-2 bg-navbar&quot;]</value>
-      <webElementGuid>3e6f26a1-49a2-4417-b335-0b82fc653050</webElementGuid>
+      <webElementGuid>2789c9d0-decb-442f-a325-64b0939e088a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='text']</value>
-      <webElementGuid>d44a3939-0318-4c0d-adf3-48806bf5fcd3</webElementGuid>
+      <webElementGuid>cfc2cea4-8d40-4ca3-b3e2-ad7b8a628132</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>e7150c8e-40a5-477c-b174-5c9f7034271a</webElementGuid>
+      <webElementGuid>cc08ffa9-003a-4a02-8594-2c9f1696f995</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>b90de4eb-7656-4d68-8f02-5d4956fd268b</webElementGuid>
+      <webElementGuid>88edbbde-d853-4b55-a5b1-b51026ec189e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

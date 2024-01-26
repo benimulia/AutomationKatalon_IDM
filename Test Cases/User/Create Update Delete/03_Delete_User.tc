@@ -1,125 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>create local user</description>
-   <name>User_Create_User</name>
+   <description>delete local user</description>
+   <name>03_Delete_User</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ca86faa0-6de6-4beb-9fce-37a25cada450</testCaseGuid>
+   <testCaseGuid>e6d6e361-e8c1-453e-a4ce-c8d4058934e5</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ea8023c8-3672-4309-b04e-be0fb9fa96a7</variableId>
+      <variableId>9a17099e-5162-4978-a9b2-1ab8345d71c8</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d83bf120-aca9-44ec-b411-ebb63b438504</variableId>
+      <variableId>a8f0688a-3439-4a3a-9c5f-049dea4932b0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c80b7475-e8bb-48be-8f62-e60a19e71cd6</variableId>
+      <variableId>4a69d31c-13ae-4f24-b3e1-e3e53caeab2f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d03da9f6-c425-4eda-b4b7-5b84853aa835</variableId>
+      <variableId>1222b6e9-d6f3-4509-9d05-e85e7bd71bd4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d4a86482-5b98-4eb6-ab1a-778b71ed259c</variableId>
+      <variableId>3b4cf1f2-d908-4efb-af70-1a40568497b5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>59c16f17-7f2e-4b8d-8f18-b4bca6b93f92</variableId>
+      <variableId>52b7017e-6b03-495f-8fd4-1fe57dfc9a0d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>acaae302-ddb9-441d-8237-0fe97f83391b</variableId>
+      <variableId>4b56bbeb-aad3-49db-aae5-04f9b8ebd9d5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d31f4f77-e966-4b3e-bec0-95ebfabbd162</variableId>
+      <variableId>5287f0b0-110f-4135-8100-5f862d18ab45</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3aec33e2-5263-4669-9e5a-25073eba3a07</variableId>
+      <variableId>51e2c401-f9a8-4636-898a-d659110845f7</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'test'</defaultValue>
+      <defaultValue>'test/'</defaultValue>
       <description></description>
-      <id>ea8023c8-3672-4309-b04e-be0fb9fa96a7</id>
+      <id>9a17099e-5162-4978-a9b2-1ab8345d71c8</id>
       <masked>false</masked>
       <name>first_name</name>
    </variable>
    <variable>
-      <defaultValue>'automation'</defaultValue>
+      <defaultValue>'automation/'</defaultValue>
       <description></description>
-      <id>d83bf120-aca9-44ec-b411-ebb63b438504</id>
+      <id>a8f0688a-3439-4a3a-9c5f-049dea4932b0</id>
       <masked>false</masked>
       <name>middle_name</name>
    </variable>
    <variable>
-      <defaultValue>'user'</defaultValue>
+      <defaultValue>'user/'</defaultValue>
       <description></description>
-      <id>c80b7475-e8bb-48be-8f62-e60a19e71cd6</id>
+      <id>4a69d31c-13ae-4f24-b3e1-e3e53caeab2f</id>
       <masked>false</masked>
       <name>last_name</name>
    </variable>
    <variable>
-      <defaultValue>'test_automation_user'</defaultValue>
-      <description></description>
-      <id>d03da9f6-c425-4eda-b4b7-5b84853aa835</id>
-      <masked>false</masked>
-      <name>username</name>
-   </variable>
-   <variable>
       <defaultValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</defaultValue>
       <description></description>
-      <id>d4a86482-5b98-4eb6-ab1a-778b71ed259c</id>
+      <id>1222b6e9-d6f3-4509-9d05-e85e7bd71bd4</id>
       <masked>true</masked>
       <name>password</name>
    </variable>
    <variable>
       <defaultValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</defaultValue>
       <description></description>
-      <id>59c16f17-7f2e-4b8d-8f18-b4bca6b93f92</id>
+      <id>3b4cf1f2-d908-4efb-af70-1a40568497b5</id>
       <masked>true</masked>
       <name>confirm_password</name>
    </variable>
    <variable>
       <defaultValue>'Petro'</defaultValue>
       <description></description>
-      <id>acaae302-ddb9-441d-8237-0fe97f83391b</id>
+      <id>52b7017e-6b03-495f-8fd4-1fe57dfc9a0d</id>
       <masked>false</masked>
       <name>company</name>
    </variable>
    <variable>
       <defaultValue>'+628216152324'</defaultValue>
       <description></description>
-      <id>d31f4f77-e966-4b3e-bec0-95ebfabbd162</id>
+      <id>4b56bbeb-aad3-49db-aae5-04f9b8ebd9d5</id>
       <masked>false</masked>
       <name>phone</name>
    </variable>
    <variable>
       <defaultValue>'test_automation_user@petrolink.com'</defaultValue>
       <description></description>
-      <id>3aec33e2-5263-4669-9e5a-25073eba3a07</id>
+      <id>5287f0b0-110f-4135-8100-5f862d18ab45</id>
       <masked>false</masked>
       <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'test_automation_user'</defaultValue>
+      <description></description>
+      <id>51e2c401-f9a8-4636-898a-d659110845f7</id>
+      <masked>false</masked>
+      <name>username_search</name>
    </variable>
 </TestCaseEntity>
