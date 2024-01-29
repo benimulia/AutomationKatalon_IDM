@@ -18,25 +18,33 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Boolean result = false
-
 WebUI.waitForPageLoad(300)
 
-WebUI.click(findTestObject('Object Repository/Page_User/div_User'))
+WebUI.verifyElementPresent(findTestObject('Page_IDM/div_Group'), 0)
 
-WebUI.click(findTestObject('Page_User/icon_Filter_User_status'))
+KeywordUtil.markPassed('Group menu is present')
 
-WebUI.click(findTestObject('Page_User/check_user_status_active'))
+WebUI.click(findTestObject('Page_IDM/div_Group'))
 
-WebUI.click(findTestObject('Page_User/btn_apply_filter'))
+WebUI.verifyElementPresent(findTestObject('Page_Group/col_group_name'), 0)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Page_Group/col_group_company_name'), 0)
 
-def actual_text = WebUI.getText(findTestObject('Page_User/td_user_status'))
+WebUI.verifyElementPresent(findTestObject('Page_Group/col_group_type'), 0)
 
-if (actual_text.contains('Active')) {
-    result = true
-}
+WebUI.verifyElementPresent(findTestObject('Page_Group/col_group_created_date'), 0)
 
-assert result
+WebUI.verifyElementPresent(findTestObject('Page_Group/col_group_modified_date'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page_Group/col_group_status'), 0)
+
+KeywordUtil.markPassed('Group columns are present')
+
+WebUI.click(findTestObject('Page_User/menu_btn_filter'))
+
+WebUI.click(findTestObject('Page_User/checkbox_filter_name'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementNotPresent(findTestObject('Page_User/header_user_name'), 0)
 

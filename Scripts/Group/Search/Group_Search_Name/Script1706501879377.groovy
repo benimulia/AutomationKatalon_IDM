@@ -20,21 +20,21 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 Boolean result = false
 
+def input = 'automation'
+
 WebUI.waitForPageLoad(300)
 
-WebUI.click(findTestObject('Object Repository/Page_User/div_User'))
+WebUI.click(findTestObject('Page_IDM/div_Group'))
 
-WebUI.click(findTestObject('Page_User/icon_Filter_User_status'))
+WebUI.click(findTestObject('Page_Group/icon_search_group_name'))
 
-WebUI.click(findTestObject('Page_User/check_user_status_active'))
+WebUI.setText(findTestObject('Page_Group/input_header-search-name'), input)
 
-WebUI.click(findTestObject('Page_User/btn_apply_filter'))
+WebUI.delay(15, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+def actual_text = WebUI.getText(findTestObject('Page_Group/td_group_name'))
 
-def actual_text = WebUI.getText(findTestObject('Page_User/td_user_status'))
-
-if (actual_text.contains('Active')) {
+if (actual_text.contains(input)) {
     result = true
 }
 

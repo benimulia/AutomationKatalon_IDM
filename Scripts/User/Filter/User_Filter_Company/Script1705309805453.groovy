@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Page_User/check_user_company_petrolink'))
 
 WebUI.click(findTestObject('Page_User/btn_apply_filter'))
 
-WebUI.delay(15, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 def actual_text = WebUI.getText(findTestObject('Page_User/td_user_company'))
 

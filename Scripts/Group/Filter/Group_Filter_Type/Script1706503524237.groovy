@@ -22,19 +22,19 @@ Boolean result = false
 
 WebUI.waitForPageLoad(300)
 
-WebUI.click(findTestObject('Object Repository/Page_User/div_User'))
+WebUI.click(findTestObject('Page_IDM/div_Group'))
 
-WebUI.click(findTestObject('Page_User/icon_Filter_User_status'))
+WebUI.click(findTestObject('Page_Group/icon_filter_group_type'))
 
-WebUI.click(findTestObject('Page_User/check_user_status_active'))
+WebUI.click(findTestObject('Page_Group/check_user_type_local_group'))
 
 WebUI.click(findTestObject('Page_User/btn_apply_filter'))
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(15, FailureHandling.STOP_ON_FAILURE)
 
-def actual_text = WebUI.getText(findTestObject('Page_User/td_user_status'))
+def actual_text = WebUI.getText(findTestObject('Page_Group/td_group_type'))
 
-if (actual_text.contains('Active')) {
+if (actual_text.contains('Local Group')) {
     result = true
 }
 

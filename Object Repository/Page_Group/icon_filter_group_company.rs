@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_filter_group_company</name>
+   <tag></tag>
+   <elementGuidId>fa15a68c-81d7-4da9-90ca-af64bedf8171</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(@class, 'filter-btn')])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>th.ng-tns-c663453339-8.grid-header-cell.drop-zone.for-userName.ng-star-inserted > pvu-grid-header-cell.ng-tns-c663453339-8 > div.grid-header-cell > pvu-header-search-cell.ng-star-inserted > div.header-search-cell-holder.d-flex.align-items-center.grid-header-cell > a.labelComp.pvu-icon-search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2387306d-c807-4182-a20b-0ca8a83b3127</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>labelComp pvu-icon-search</value>
+      <webElementGuid>16b22b88-f816-486c-8a5f-8f99a445a5f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-7 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-7&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-7 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-7&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-7&quot;]/pvu-user[@class=&quot;ng-star-inserted&quot;]/pvu-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 card&quot;]/div[@class=&quot;container-full pt-2 px-3&quot;]/div[@class=&quot;position-relative&quot;]/pvu-grid[@class=&quot;d-block w-100 h-100&quot;]/div[@class=&quot;pvu-grid-container w-100 h-100 header-hidden-grid footer-hidden-grid ng-star-inserted&quot;]/div[@class=&quot;grid-title-container ng-star-inserted&quot;]/pvu-grid-title[@class=&quot;ng-tns-c663453339-8 ng-star-inserted&quot;]/table[@class=&quot;grid-title table ng-tns-c663453339-8&quot;]/thead[@class=&quot;ng-tns-c663453339-8&quot;]/tr[@class=&quot;ng-tns-c663453339-8&quot;]/th[@class=&quot;ng-tns-c663453339-8 grid-header-cell drop-zone for-userName ng-star-inserted&quot;]/pvu-grid-header-cell[@class=&quot;ng-tns-c663453339-8&quot;]/div[@class=&quot;grid-header-cell&quot;]/pvu-header-search-cell[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;header-search-cell-holder d-flex align-items-center grid-header-cell&quot;]/a[@class=&quot;labelComp pvu-icon-search&quot;]</value>
+      <webElementGuid>f67f3846-6e5d-46cd-a758-a70b024f0609</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]/pvu-grid-header-cell/div/pvu-header-search-cell/div/a[3]</value>
+      <webElementGuid>666700c8-01a4-46a8-977a-b88da2879f7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+      <webElementGuid>1fbabc8e-c05d-40b3-a917-28861657858b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
