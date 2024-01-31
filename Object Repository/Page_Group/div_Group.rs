@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Group</name>
+   <tag></tag>
+   <elementGuidId>155b2ed9-c138-4ba3-a92f-20720c83e90b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//pvu-menu-item[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3f72006a-3b6e-4652-bb0b-53c500e98e2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-flex flex-column justify-content-center align-items-center m-0 panel</value>
+      <webElementGuid>5232349e-f444-44fd-88d1-2b7be727861a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Group</value>
+      <webElementGuid>8c702a85-f2d4-46da-9636-65c917b839b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-5 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-5&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-5 exclude-footer-main-navbar&quot;]/pvu-left-navigation[@class=&quot;ng-tns-c1063071239-5 ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column justify-content-between pull-left h-100 p-0 panel-left-navigation&quot;]/div[@class=&quot;d-flex flex-column h-100&quot;]/pvu-menu-item[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column justify-content-center align-items-center m-0 panel&quot;]</value>
+      <webElementGuid>023a9f61-331d-444f-8d1c-c0fea30b2b8e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//pvu-menu-item[3]/div</value>
+      <webElementGuid>05252adb-a373-4f68-b64d-83f242bdb591</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Group' or . = 'Group')]</value>
+      <webElementGuid>ae7b574a-f2c7-4007-a79a-2580f165d76d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

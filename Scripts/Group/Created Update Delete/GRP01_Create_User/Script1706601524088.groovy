@@ -10,33 +10,41 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Boolean result = false
+WebUI.click(findTestObject('Page_IDM/div_User'))
 
-WebUI.waitForPageLoad(300)
+WebUI.click(findTestObject('Page_User/Page_Create/btn_user_create_user'))
 
-WebUI.click(findTestObject('Page_IDM/div_Group'))
+WebUI.setText(findTestObject('Page_User/Page_Create/input_user_first_name'), first_name)
 
-WebUI.click(findTestObject('Page_Group/icon_search_group_username_add_user'))
+WebUI.setText(findTestObject('Page_User/Page_Create/input_user_middle_name'), middle_name)
 
-WebUI.click(findTestObject('Page_User/check_user_company_petrolink'))
+WebUI.setText(findTestObject('Page_User/Page_Create/input_user_last_name'), last_name)
 
-WebUI.click(findTestObject('Page_User/btn_apply_filter'))
+WebUI.setText(findTestObject('Page_User/Page_Create/input_user_username'), username)
 
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('Page_User/Page_Create/input_user_password'), password)
 
-def actual_text = WebUI.getText(findTestObject('Page_Group/td_group_company'))
+WebUI.setEncryptedText(findTestObject('Page_User/Page_Create/input_user_confirm_password'), confirm_password)
 
-if (actual_text.contains('Petrolink')) {
-    result = true
-}
+WebUI.setText(findTestObject('Page_User/Page_Create/input_user_company'), company)
 
-assert result
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_User/Page_Create/input_user_company_petrolink'))
+
+WebUI.setText(findTestObject('Page_User/Page_Create/input_user_phone'), phone)
+
+WebUI.setText(findTestObject('Page_User/Page_Create/input_user_email'), email)
+
+WebUI.click(findTestObject('Page_User/Page_Create/btn_save_user'))
+
+WebUI.verifyTextPresent('User Created Successfully.', false)
 

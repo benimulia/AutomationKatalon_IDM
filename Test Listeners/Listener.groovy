@@ -29,7 +29,11 @@ class Listener {
 	 */
 	@BeforeTestCase
 	def BeforeTestCase(TestCaseContext testCaseContext) {	
-		if (!(testCaseContext.getTestCaseId().contains("Login"))) {
+		def testCaseIdsToConsider = ["Login", "OMS"]
+	
+		String testCaseId = testCaseContext.getTestCaseId()
+		
+		if (!testCaseIdsToConsider.any { it -> testCaseId.contains(it) }) {
 			WebUI.openBrowser('')
 			
 			WebUI.maximizeWindow()

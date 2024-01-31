@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add User(s)Group(s)</name>
+   <tag></tag>
+   <elementGuidId>d7fc266b-da16-4bf4-a835-7d3e231dda7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.add-to-group-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2e36a747-dc90-4fb3-a5c9-74ca6879c7c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>add-to-group-button</value>
+      <webElementGuid>b3cf1e3b-817c-4c7c-b26d-556bf0174509</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+ Add User(s)/Group(s) </value>
+      <webElementGuid>a1e92c36-a2c3-4188-8ad8-ac71adebffaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-13 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-13&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-13 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-13&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-13&quot;]/pvu-group[@class=&quot;ng-star-inserted&quot;]/pvu-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 container-panel&quot;]/div[@class=&quot;bottom-panel bg-s2&quot;]/div[@class=&quot;h-100&quot;]/div[@class=&quot;d-flex flex-row-reverse p-2 margin-top ng-star-inserted&quot;]/button[@class=&quot;add-to-group-button&quot;]</value>
+      <webElementGuid>881e6b10-4297-45e6-a619-3a62dc71cb6f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>5b44fabb-a237-4e60-967a-fd30588a960f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '+ Add User(s)/Group(s) ' or . = '+ Add User(s)/Group(s) ')]</value>
+      <webElementGuid>e6f9f73f-3803-4ad6-9519-bce0b668cea1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

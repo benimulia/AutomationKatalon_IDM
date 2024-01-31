@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>create local user</description>
+   <name>GRP02_Create_Group</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a6cd612-b440-4f5a-a504-8032159fa69b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0aec27fa-cf40-40c6-a242-b424d17af20b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f31b7f7-a636-4599-997a-f0d2532f83b9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0d520b6-7482-43e1-84c2-5a8a55a314b5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'automation_group'</defaultValue>
+      <description></description>
+      <id>0aec27fa-cf40-40c6-a242-b424d17af20b</id>
+      <masked>false</masked>
+      <name>group_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'test automation'</defaultValue>
+      <description></description>
+      <id>7f31b7f7-a636-4599-997a-f0d2532f83b9</id>
+      <masked>false</masked>
+      <name>group_desc</name>
+   </variable>
+   <variable>
+      <defaultValue>'test_automation_user_group'</defaultValue>
+      <description></description>
+      <id>e0d520b6-7482-43e1-84c2-5a8a55a314b5</id>
+      <masked>false</masked>
+      <name>header_search_name</name>
+   </variable>
+</TestCaseEntity>

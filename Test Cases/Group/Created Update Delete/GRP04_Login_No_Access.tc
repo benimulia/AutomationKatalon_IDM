@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GRP04_Login_No_Access</name>
+   <tag>common</tag>
+   <comment></comment>
+   <testCaseGuid>29ff7e30-d41a-4593-8b23-cfd9b32bb0a1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3d3a10d-9d68-4dd7-ace7-698284370c12</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c99d9aaf-b7a1-4e12-966a-a3b15d950994</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test_automation_user_group'</defaultValue>
+      <description></description>
+      <id>c3d3a10d-9d68-4dd7-ace7-698284370c12</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</defaultValue>
+      <description></description>
+      <id>c99d9aaf-b7a1-4e12-966a-a3b15d950994</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

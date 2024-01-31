@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Petrolink</name>
+   <tag></tag>
+   <elementGuidId>1dd202cc-5233-48b8-8643-87c8abf075e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[2]/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.multiselect-item-checkbox.d-flex.align-items-center.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>187d56b7-18bd-40f5-afca-99a04c22a270</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect-item-checkbox d-flex align-items-center ng-star-inserted</value>
+      <webElementGuid>3f9968f7-6b5e-4c0f-81f7-f50bfc83ad1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Petrolink</value>
+      <webElementGuid>b1cca59d-3116-4539-b081-3666718ec61c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-13 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-13&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-13 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-13&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-13&quot;]/pvu-group[@class=&quot;ng-star-inserted&quot;]/pvu-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 container-panel&quot;]/div[@class=&quot;d-flex p-2 top-panel bg-s2&quot;]/div[@class=&quot;form-container&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;form-row d-flex&quot;]/div[@class=&quot;form-group col-md-4 ng-star-inserted&quot;]/pvu-multi-select-input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;form-input multi-select-input-container bg-navbar&quot;]/div[@class=&quot;w-100 h-100 form-input-holder focused&quot;]/pvu-multi-select-dropdown[1]/div[@class=&quot;multi-select-xs multiselect-dropdown&quot;]/div[@class=&quot;dropdown-list&quot;]/ul[@class=&quot;bottom-section&quot;]/li[@class=&quot;multiselect-item-checkbox d-flex align-items-center ng-star-inserted&quot;]</value>
+      <webElementGuid>0b08fe00-30f6-40e9-9fa3-abd15b561ced</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[2]/li</value>
+      <webElementGuid>d8eea595-11ba-4732-b83a-91dc59064ed6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Petrolink' or . = 'Petrolink')]</value>
+      <webElementGuid>e98a2408-4bb8-45c0-af6f-a084bfcd2e81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

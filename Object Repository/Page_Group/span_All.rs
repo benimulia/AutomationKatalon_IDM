@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_All</name>
+   <tag></tag>
+   <elementGuidId>18bff878-ceb6-4ef0-9c65-eb9948e61ac0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/pvu-multi-select-input/div/div/pvu-multi-select-dropdown/div/div[2]/ul/li/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.w-100.h-100.form-input-holder.focused > pvu-multi-select-dropdown > div.multi-select-xs.multiselect-dropdown > div.dropdown-list > ul.top-section > li.multiselect-item-checkbox.d-flex.align-items-center.ng-star-inserted > span:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a9c0a39f-9e5c-4431-97cb-f1876923e15f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All</value>
+      <webElementGuid>4ff0b147-bec5-4452-9300-51c5ea957d18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-13 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-13&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-13 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-13&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-13&quot;]/pvu-group[@class=&quot;ng-star-inserted&quot;]/pvu-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 container-panel&quot;]/div[@class=&quot;d-flex p-2 top-panel bg-s2&quot;]/div[@class=&quot;form-container&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;form-row d-flex&quot;]/div[@class=&quot;form-group col-md-4 ng-star-inserted&quot;]/pvu-multi-select-input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;form-input multi-select-input-container bg-navbar&quot;]/div[@class=&quot;w-100 h-100 form-input-holder focused&quot;]/pvu-multi-select-dropdown[1]/div[@class=&quot;multi-select-xs multiselect-dropdown&quot;]/div[@class=&quot;dropdown-list&quot;]/ul[@class=&quot;top-section&quot;]/li[@class=&quot;multiselect-item-checkbox d-flex align-items-center ng-star-inserted&quot;]/span[2]</value>
+      <webElementGuid>fbc2a1d0-caee-4ae9-a693-e4e94be5f1d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/pvu-multi-select-input/div/div/pvu-multi-select-dropdown/div/div[2]/ul/li/span[2]</value>
+      <webElementGuid>1ee66193-7c47-4485-9a9b-7718f058f454</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'All' or . = 'All')]</value>
+      <webElementGuid>1b388ca3-7d30-41f1-ab91-6e9734102253</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

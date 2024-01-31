@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_search_group_username_add_user</name>
+   <tag></tag>
+   <elementGuidId>fa15a68c-81d7-4da9-90ca-af64bedf8171</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>pvu-grid-header-cell.ng-tns-c663453339-19 > div.grid-header-cell > pvu-header-search-cell.ng-star-inserted > div.header-search-cell-holder.d-flex.align-items-center.grid-header-cell > a.labelComp.pvu-icon-search</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(@class,'labelComp pvu-icon-search')])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ad0195af-71d8-40d7-a8de-60134cb5b5ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>labelComp pvu-icon-search</value>
+      <webElementGuid>08442fc0-a23f-454f-8f2b-96d619c9fc03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-13 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-13&quot;]/pvu-right-panel[@class=&quot;ng-tns-c1063071239-13 ng-trigger ng-trigger-slideInOutRightPanel&quot;]/div[@class=&quot;d-flex flex-column h-100&quot;]/div[@class=&quot;right-panel-content-container p-2 pt-0 pb-0 bg-navbar&quot;]/pvu-add-user-group-to-group[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;h-100 w-100 float-start&quot;]/div[@class=&quot;grid-holder&quot;]/pvu-grid[1]/div[@class=&quot;pvu-grid-container w-100 h-100 header-hidden-grid footer-hidden-grid ng-star-inserted&quot;]/div[@class=&quot;grid-title-container ng-star-inserted&quot;]/pvu-grid-title[@class=&quot;ng-tns-c663453339-19 ng-star-inserted&quot;]/table[@class=&quot;grid-title table ng-tns-c663453339-19&quot;]/thead[@class=&quot;ng-tns-c663453339-19&quot;]/tr[@class=&quot;ng-tns-c663453339-19&quot;]/th[@class=&quot;ng-tns-c663453339-19 grid-header-cell drop-zone for-fullName ng-star-inserted&quot;]/pvu-grid-header-cell[@class=&quot;ng-tns-c663453339-19&quot;]/div[@class=&quot;grid-header-cell&quot;]/pvu-header-search-cell[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;header-search-cell-holder d-flex align-items-center grid-header-cell&quot;]/a[@class=&quot;labelComp pvu-icon-search&quot;]</value>
+      <webElementGuid>03d77928-6e9f-4729-821d-8dd7bfd0a50c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//pvu-add-user-group-to-group/div/div/pvu-grid/div/div/pvu-grid-title/table/thead/tr/th[2]/pvu-grid-header-cell/div/pvu-header-search-cell/div/a[3]</value>
+      <webElementGuid>e89bfa08-bb9e-488d-867c-37f271ba75aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]/pvu-grid-header-cell/div/pvu-header-search-cell/div/a[3]</value>
+      <webElementGuid>d01bf041-f7f7-416e-945e-36e82ac63817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+      <webElementGuid>9b510217-6d18-4161-b928-daaa3ed59afc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

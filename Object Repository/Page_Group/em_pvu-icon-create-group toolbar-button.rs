@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>em_pvu-icon-create-group toolbar-button</name>
+   <tag></tag>
+   <elementGuidId>7883e834-f219-4096-bd5a-abd7b208790a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//em[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>em.pvu-icon-create-group.toolbar-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+      <webElementGuid>7a4476ba-b388-4233-a185-a162bc44d520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pvu-icon-create-group toolbar-button</value>
+      <webElementGuid>c3b90176-1bea-4317-a22d-181fd9529d77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-7 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-7&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-7 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-7&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-7&quot;]/pvu-group[@class=&quot;ng-star-inserted&quot;]/pvu-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 card&quot;]/div[@class=&quot;d-flex flex-row-reverse w-100 pt-2 pe-3 pb-1&quot;]/em[@class=&quot;pvu-icon-create-group toolbar-button&quot;]</value>
+      <webElementGuid>2d2b6907-606a-4637-8138-e904c648f3b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//em[2]</value>
+      <webElementGuid>576a41ed-9bf8-436c-a4e6-61524577b9d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

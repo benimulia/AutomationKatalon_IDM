@@ -18,29 +18,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_IDM/div_User'))
+WebUI.click(findTestObject('Object Repository/Page_Group/div_Group'))
 
-WebUI.waitForPageLoad(300)
+WebUI.click(findTestObject('Object Repository/Page_Group/em_pvu-icon-create-group toolbar-button'))
 
-WebUI.click(findTestObject('Page_User/icon_Search_User_username'))
+WebUI.setText(findTestObject('Page_Group/input_group_name'), group_name)
 
-WebUI.setText(findTestObject('Page_User/input_header-search-username'), username_search)
+WebUI.click(findTestObject('Object Repository/Page_Group/span_dropdown-btn'))
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Group/li_Petrolink'))
 
-WebUI.doubleClick(findTestObject('Page_User/td_user_username'))
+WebUI.click(findTestObject('Page_Group/span_dropdown-btn-2'))
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Group/span_All'))
 
-WebUI.setText(findTestObject('Page_User/Page_Create/input_user_first_name'), first_name)
+WebUI.setText(findTestObject('Page_Group/input_group_description'), group_desc)
 
-WebUI.setText(findTestObject('Page_User/Page_Create/input_user_middle_name'), middle_name)
+WebUI.click(findTestObject('Object Repository/Page_Group/button_Add User(s)Group(s)'))
 
-WebUI.setText(findTestObject('Page_User/Page_Create/input_user_last_name'), last_name)
+WebUI.click(findTestObject('Object Repository/Page_Group/icon_search_group_username_add_user'))
 
-WebUI.click(findTestObject('Page_User/Page_Create/btn_save_user'))
+WebUI.setText(findTestObject('Object Repository/Page_Group/input_header-search-name'), header_search_name)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Page_Group/span_ng-star-inserted'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group/button_Add to Groups'))
+
+WebUI.click(findTestObject('Object Repository/Page_Group/button_Save'))
 
 WebUI.waitForPageLoad(60)
 
-WebUI.verifyTextPresent('User Updated Successfully.', false)
+WebUI.verifyTextPresent('Group Created Successfully.', false)
 

@@ -18,25 +18,20 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Boolean result = false
+WebUI.openBrowser('')
 
-WebUI.waitForPageLoad(300)
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Page_IDM/div_Group'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Page_Group/icon_search_group_username_add_user'))
+WebUI.setText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_UserName'), username)
 
-WebUI.click(findTestObject('Page_User/check_user_company_petrolink'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/input_Password'), 
+    password)
 
-WebUI.click(findTestObject('Page_User/btn_apply_filter'))
+WebUI.click(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/button_Sign In'))
 
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForPageLoad(15)
 
-def actual_text = WebUI.getText(findTestObject('Page_Group/td_group_company'))
-
-if (actual_text.contains('Petrolink')) {
-    result = true
-}
-
-assert result
+WebUI.verifyTextPresent('Access Denied', false)
 

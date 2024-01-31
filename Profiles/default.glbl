@@ -19,4 +19,9 @@
       <initValue>'p4y+y39Ir5Oy1MY8jPt0uQ=='</initValue>
       <name>PASSWORD</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://skicvdevpv1.dev.petrolink.net/oms/omsserver/home/'</initValue>
+      <name>URL_OMS</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

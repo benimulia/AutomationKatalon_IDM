@@ -6,12 +6,12 @@
    <elementGuidId>aa2eebce-da6e-4338-a9c9-65ce72d21465</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='text'])[1]</value>
+         <key>CSS</key>
+         <value>pvu-grid-header-cell.ng-tns-c663453339-19 > div.grid-header-cell > pvu-header-search-cell.ng-star-inserted > div.header-search-cell-holder.d-flex.align-items-center.grid-header-cell > input.header-search-input-field.form-control.input-xs</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>th.ng-tns-c663453339-8.grid-header-cell.drop-zone.for-userName.ng-star-inserted > pvu-grid-header-cell.ng-tns-c663453339-8 > div.grid-header-cell > pvu-header-search-cell.ng-star-inserted > div.header-search-cell-holder.d-flex.align-items-center.grid-header-cell > input.header-search-input-field.form-control.input-xs</value>
+         <key>XPATH</key>
+         <value>(//input[@type = 'text' and contains(@class,'header-search-input-field') and @placeholder = 'Search...'])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>87945363-3be0-43b7-8d68-faa35f959422</webElementGuid>
+      <webElementGuid>8e77f0ba-b896-4e48-bde1-004645c2cf05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>35b6bf4d-22c3-4024-aea8-7ea956a43377</webElementGuid>
+      <webElementGuid>b994fdab-c93e-4e45-af4e-bc2021a278c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>header-search-input-field form-control input-xs</value>
-      <webElementGuid>b4b7501c-6df3-4624-8a09-8c6909973ffb</webElementGuid>
+      <webElementGuid>1d1a7424-d6b4-4ab2-8f8b-54b79f9bb6b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,31 +46,39 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search...</value>
-      <webElementGuid>b18d0555-b1d9-43fe-9b06-109d6a3c889b</webElementGuid>
+      <webElementGuid>2aa51cda-c618-40b0-9a34-210ccb208b09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-7 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-7&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1063071239-7 exclude-footer-main-navbar&quot;]/div[@class=&quot;h-100 ng-tns-c1063071239-7&quot;]/div[@class=&quot;w-100 h-100 router-container ng-tns-c1063071239-7&quot;]/pvu-user[@class=&quot;ng-star-inserted&quot;]/pvu-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 card&quot;]/div[@class=&quot;container-full pt-2 px-3&quot;]/div[@class=&quot;position-relative&quot;]/pvu-grid[@class=&quot;d-block w-100 h-100&quot;]/div[@class=&quot;pvu-grid-container w-100 h-100 header-hidden-grid footer-hidden-grid ng-star-inserted&quot;]/div[@class=&quot;grid-title-container ng-star-inserted&quot;]/pvu-grid-title[@class=&quot;ng-tns-c663453339-8 ng-star-inserted&quot;]/table[@class=&quot;grid-title table ng-tns-c663453339-8&quot;]/thead[@class=&quot;ng-tns-c663453339-8&quot;]/tr[@class=&quot;ng-tns-c663453339-8&quot;]/th[@class=&quot;ng-tns-c663453339-8 grid-header-cell drop-zone for-userName ng-star-inserted&quot;]/pvu-grid-header-cell[@class=&quot;ng-tns-c663453339-8&quot;]/div[@class=&quot;grid-header-cell&quot;]/pvu-header-search-cell[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;header-search-cell-holder d-flex align-items-center grid-header-cell&quot;]/input[@class=&quot;header-search-input-field form-control input-xs&quot;]</value>
-      <webElementGuid>14ca3af1-6b96-4677-bf89-e257cdbdb187</webElementGuid>
+      <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-13 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-13&quot;]/pvu-right-panel[@class=&quot;ng-tns-c1063071239-13 ng-trigger ng-trigger-slideInOutRightPanel&quot;]/div[@class=&quot;d-flex flex-column h-100&quot;]/div[@class=&quot;right-panel-content-container p-2 pt-0 pb-0 bg-navbar&quot;]/pvu-add-user-group-to-group[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;h-100 w-100 float-start&quot;]/div[@class=&quot;grid-holder&quot;]/pvu-grid[1]/div[@class=&quot;pvu-grid-container w-100 h-100 header-hidden-grid footer-hidden-grid ng-star-inserted&quot;]/div[@class=&quot;grid-title-container ng-star-inserted&quot;]/pvu-grid-title[@class=&quot;ng-tns-c663453339-19 ng-star-inserted&quot;]/table[@class=&quot;grid-title table ng-tns-c663453339-19&quot;]/thead[@class=&quot;ng-tns-c663453339-19&quot;]/tr[@class=&quot;ng-tns-c663453339-19&quot;]/th[@class=&quot;ng-tns-c663453339-19 grid-header-cell drop-zone for-fullName ng-star-inserted&quot;]/pvu-grid-header-cell[@class=&quot;ng-tns-c663453339-19&quot;]/div[@class=&quot;grid-header-cell&quot;]/pvu-header-search-cell[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;header-search-cell-holder d-flex align-items-center grid-header-cell&quot;]/input[@class=&quot;header-search-input-field form-control input-xs&quot;]</value>
+      <webElementGuid>60fd18c3-7bc8-431c-b5f0-4ddaa401b175</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>new-password</value>
+      <webElementGuid>c5b0290f-30ed-4ac1-ab45-cbf9b88a32c6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@type='text'])[2]</value>
-      <webElementGuid>5de69388-2560-4cf0-af7c-d2839491313c</webElementGuid>
+      <value>(//input[@type='text'])[5]</value>
+      <webElementGuid>171940ef-5057-4ee1-8e70-69033fedbb9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//th[3]/pvu-grid-header-cell/div/pvu-header-search-cell/div/input</value>
-      <webElementGuid>1fc7f10c-1960-4188-b862-ada7b87bec3b</webElementGuid>
+      <value>//pvu-add-user-group-to-group/div/div/pvu-grid/div/div/pvu-grid-title/table/thead/tr/th[2]/pvu-grid-header-cell/div/pvu-header-search-cell/div/input</value>
+      <webElementGuid>b4acce1f-037f-410f-b908-5ab599fae3a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +86,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Search...']</value>
-      <webElementGuid>5fdac99f-7c46-4fe4-8416-c764fbac622e</webElementGuid>
+      <webElementGuid>73f8c9be-e49c-4aef-a7c8-0372d0e23649</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +94,39 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='text']</value>
-      <webElementGuid>1aaf22e2-6b4e-4e39-a134-cdcc965a96f6</webElementGuid>
+      <webElementGuid>95b7e9d2-6a2d-4683-a83e-536d4334e26c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>41eef352-64d9-4f69-84d9-7576164bd53c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>1309d07e-ee09-4ee5-8a27-b8bb4dcca5dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[2]</value>
+      <webElementGuid>e4cdb04b-8bef-421c-8310-3e11a29e9d88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]/pvu-grid-header-cell/div/pvu-header-search-cell/div/input</value>
+      <webElementGuid>4a8f0468-bc37-43e6-990c-ccc2995626ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +134,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//pvu-header-search-cell/div/input</value>
-      <webElementGuid>ebe5fd6f-3667-4ea7-866a-3b4a1437a26a</webElementGuid>
+      <webElementGuid>027d746b-b592-4ff3-9d7b-a976e5276356</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
