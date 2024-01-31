@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>update local user</description>
-   <name>GRP03_Update_Group</name>
+   <description>delete group</description>
+   <name>GRP08_Delete_Group</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>86aed982-1317-455b-8aae-3fe687148a2b</testCaseGuid>
+   <testCaseGuid>75216923-3d31-45c8-9513-a0ca7e14fdfd</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3c1e1670-d94f-4806-b155-da3c4bc646bd</variableId>
+      <variableId>11b6d35d-99f1-4009-8fc9-7cffcfc7f2bc</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'automation_group'</defaultValue>
       <description></description>
-      <id>3c1e1670-d94f-4806-b155-da3c4bc646bd</id>
+      <id>11b6d35d-99f1-4009-8fc9-7cffcfc7f2bc</id>
       <masked>false</masked>
       <name>name_search</name>
    </variable>

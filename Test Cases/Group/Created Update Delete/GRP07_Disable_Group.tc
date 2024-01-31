@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>update local user</description>
-   <name>GRP03_Update_Group</name>
+   <description>create local user</description>
+   <name>GRP07_Disable_Group</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>86aed982-1317-455b-8aae-3fe687148a2b</testCaseGuid>
+   <testCaseGuid>94058fc5-eba1-489d-a947-2d2774fb2b48</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3c1e1670-d94f-4806-b155-da3c4bc646bd</variableId>
+      <variableId>b5b3ca7e-67b2-4a57-b4d8-fbff7e191a01</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'automation_group'</defaultValue>
       <description></description>
-      <id>3c1e1670-d94f-4806-b155-da3c4bc646bd</id>
+      <id>b5b3ca7e-67b2-4a57-b4d8-fbff7e191a01</id>
       <masked>false</masked>
       <name>name_search</name>
    </variable>

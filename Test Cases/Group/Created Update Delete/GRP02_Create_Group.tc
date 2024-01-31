@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>create local user</description>
+   <description>create local group</description>
    <name>GRP02_Create_Group</name>
    <tag></tag>
    <comment></comment>

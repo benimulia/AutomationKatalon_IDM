@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete local user</description>
+   <name>GRP09_Delete_User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee568b84-4b51-4489-b631-3277ac2fc8f4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09c33690-5810-41e2-86ee-fd16a751d1be</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test_automation_user_group'</defaultValue>
+      <description></description>
+      <id>09c33690-5810-41e2-86ee-fd16a751d1be</id>
+      <masked>false</masked>
+      <name>username_search</name>
+   </variable>
+</TestCaseEntity>
