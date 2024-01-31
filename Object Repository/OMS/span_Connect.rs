@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Connect</name>
+   <tag></tag>
+   <elementGuidId>fa590ae8-984b-43d0-9a8c-d114ae75b40f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnConnect']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnConnect > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0336906f-7399-4068-8c2c-908611ff03f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Connect</value>
+      <webElementGuid>62b58818-41a7-41eb-b817-a26621f0f384</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btnConnect&quot;)/span[1]</value>
+      <webElementGuid>9851126c-e3c7-47c0-b0f3-c6c650739e18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='btnConnect']/span</value>
+      <webElementGuid>8f487e25-9f40-4ac6-8442-a36ebbb28fd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/button/span</value>
+      <webElementGuid>28e84494-25ed-4d86-b9ef-58f98e333720</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Connect' or . = 'Connect')]</value>
+      <webElementGuid>75f9577f-baf0-48ea-8969-a6542952a4c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

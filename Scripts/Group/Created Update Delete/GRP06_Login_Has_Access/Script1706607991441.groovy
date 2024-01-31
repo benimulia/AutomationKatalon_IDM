@@ -31,8 +31,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Welcome to the Pet
 
 WebUI.click(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/button_Sign In'))
 
-WebUI.click(findTestObject('Page_IDM/btn_accept_tc'))
-
 actual_url = WebUI.getUrl()
 
 'this step for verify url, means user login successfuly'

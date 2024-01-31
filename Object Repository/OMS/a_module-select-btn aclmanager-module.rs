@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_module-select-btn aclmanager-module</name>
+   <tag></tag>
+   <elementGuidId>390cfcaf-3001-477b-b566-7aca96c01729</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Oms-MainView']/div[2]/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.module-select-btn.aclmanager-module</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b5fd4f1b-f88a-4e2c-b0a8-03e487860a2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-class-name</name>
+      <type>Main</type>
+      <value>module-select-btn aclmanager-module</value>
+      <webElementGuid>55852f96-0f7c-40f2-99a8-a22878529b11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>module-select-btn aclmanager-module</value>
+      <webElementGuid>810bfcfc-57b0-4fa6-a712-70d67ea164cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Oms-MainView&quot;)/div[@class=&quot;col-xs-12 no-padding Oms-Modules&quot;]/ul[1]/li[@class=&quot;module-select-list&quot;]/a[@class=&quot;module-select-btn aclmanager-module&quot;]</value>
+      <webElementGuid>8ea37c6b-b55b-48b0-9cbf-3ff099f80c81</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Oms-MainView']/div[2]/ul/li[2]/a</value>
+      <webElementGuid>f0990c67-8017-4f11-8163-fde882e46888</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>1a83fcfd-9003-4bb1-a979-bea0278265bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

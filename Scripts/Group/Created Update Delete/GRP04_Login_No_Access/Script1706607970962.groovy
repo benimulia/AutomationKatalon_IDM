@@ -31,6 +31,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Welcome to the Pet
 
 WebUI.click(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/button_Sign In'))
 
+WebUI.click(findTestObject('Page_IDM/btn_accept_tc'))
+
 WebUI.waitForPageLoad(15)
 
 WebUI.verifyTextPresent('Access Denied', false)

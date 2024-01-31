@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>first_row_user_groups</name>
+   <tag></tag>
+   <elementGuidId>779a96c4-eb0d-47bd-9720-4f5fd7f4cb80</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.button-cell-icon.add-user-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@class,'link-cell') and text()='automation_group']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>02108d57-56c3-4df9-89b0-9805a6193c8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-class-name</name>
+      <type>Main</type>
+      <value>button-cell-icon add-user-icon</value>
+      <webElementGuid>f76cf83f-cd44-4185-a1be-8ba1dfb0fd54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-cell-icon add-user-icon</value>
+      <webElementGuid>ac273149-f8b5-4769-9cfb-ffc6f6362626</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;assignment-usergroups-container&quot;)/div[@class=&quot;assignment-usergroup-grid-container ALL&quot;]/pvu-grid[1]/div[@class=&quot;pvu-grid-container header-hidden-grid&quot;]/div[@class=&quot;grid-body-container header-hidden&quot;]/grid-body[1]/table[@class=&quot;grid-body table table-bordered table-hover&quot;]/tbody[1]/tr[@class=&quot;row-data&quot;]/td[@class=&quot;grid-cell for-addIcon&quot;]/grid-cell[1]/formatter-component-cell[1]/button-cell[@class=&quot;button-cell&quot;]/span[@class=&quot;button-cell-icon add-user-icon&quot;]</value>
+      <webElementGuid>7dd2ed91-c70a-4ef7-b7a0-007f7086eadf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='assignment-usergroups-container']/div[2]/pvu-grid/div/div[2]/grid-body/table/tbody/tr/td[2]/grid-cell/formatter-component-cell/button-cell/span</value>
+      <webElementGuid>a88a5802-4fdd-452a-9bde-bd3202aa55d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button-cell/span</value>
+      <webElementGuid>7726b3d0-8f77-405c-a7d7-78f7acd3bb72</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
