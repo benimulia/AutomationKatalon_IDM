@@ -18,25 +18,33 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Boolean result = false
-
 WebUI.waitForPageLoad(300)
 
-WebUI.click(findTestObject('Page_IDM/div_Group'))
+WebUI.verifyElementPresent(findTestObject('Page_IDM/div_Audit Trail'), 30)
 
-WebUI.click(findTestObject('Page_Group/icon_filter_group_company'))
+KeywordUtil.markPassed('Company menu is present')
 
-WebUI.click(findTestObject('Page_User/check_user_company_petrolink'))
+WebUI.click(findTestObject('Page_IDM/div_Audit Trail'))
 
-WebUI.click(findTestObject('Page_User/btn_apply_filter'))
+WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_time'), 0)
 
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_object_name'), 0)
 
-def actual_text = WebUI.getText(findTestObject('Page_Group/td_group_company'))
+WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_type'), 0)
 
-if (actual_text.contains('Petrolink')) {
-    result = true
-}
+WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_action'), 0)
 
-assert result
+WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_performed_by'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_additional_info'), 0)
+
+KeywordUtil.markPassed('Audit Trail columns are present')
+
+WebUI.click(findTestObject('Page_User/menu_btn_filter'))
+
+WebUI.click(findTestObject('Page_User/checkbox_filter_name'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementNotPresent(findTestObject('Page_Audit_Trail/col_audit_time'), 0)
 

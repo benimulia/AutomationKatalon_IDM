@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>search group name on group menu</description>
-   <name>input_header-search-name-group</name>
+   <description></description>
+   <name>icon_filter_audit_performed_by</name>
    <tag></tag>
-   <elementGuidId>44a3e1fe-9ba0-45a8-8bba-ce8bd3a13207</elementGuidId>
+   <elementGuidId>7f40928b-0259-4bfa-9d3f-f5138e6e6a82</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type = 'text' and contains(@class,'header-search-input-field')])[1]</value>
+         <value>(//a[contains(@class, 'filter-btn')])[4]</value>
       </entry>
       <entry>
          <key>BASIC</key>

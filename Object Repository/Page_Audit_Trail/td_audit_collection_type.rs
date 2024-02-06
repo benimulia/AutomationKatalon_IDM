@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>search group name on group menu</description>
-   <name>input_header-search-name-group</name>
+   <description></description>
+   <name>td_audit_collection_type</name>
    <tag></tag>
-   <elementGuidId>44a3e1fe-9ba0-45a8-8bba-ce8bd3a13207</elementGuidId>
+   <elementGuidId>19b3300d-835f-465c-b061-41fb6ee20227</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type = 'text' and contains(@class,'header-search-input-field')])[1]</value>
+         <value>//table//tr//td[@class='grid-cell ng-star-inserted'][3]</value>
       </entry>
       <entry>
          <key>BASIC</key>

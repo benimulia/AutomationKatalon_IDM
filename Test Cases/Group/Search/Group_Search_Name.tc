@@ -15,29 +15,16 @@
       <testDataId>Data Files/LoginData</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>1e117fe8-4ca5-4d73-9575-768a368ca972</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>username</value>
-      <variableId>f5a98206-c9fe-48e1-9044-a6929a9cf11e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId>1e117fe8-4ca5-4d73-9575-768a368ca972</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>password</value>
-      <variableId>3ac02a23-c423-4b1b-9bb1-0f811cc06694</variableId>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d74e7ae0-00d2-44cd-b693-d356c4a73c3e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'automation'</defaultValue>
       <description></description>
-      <id>f5a98206-c9fe-48e1-9044-a6929a9cf11e</id>
+      <id>d74e7ae0-00d2-44cd-b693-d356c4a73c3e</id>
       <masked>false</masked>
-      <name>username</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>3ac02a23-c423-4b1b-9bb1-0f811cc06694</id>
-      <masked>false</masked>
-      <name>password</name>
+      <name>input</name>
    </variable>
 </TestCaseEntity>

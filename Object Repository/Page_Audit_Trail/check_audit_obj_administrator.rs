@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>search group name on group menu</description>
-   <name>input_header-search-name-group</name>
+   <description></description>
+   <name>check_audit_obj_administrator</name>
    <tag></tag>
-   <elementGuidId>44a3e1fe-9ba0-45a8-8bba-ce8bd3a13207</elementGuidId>
+   <elementGuidId>3217b2b2-66f2-4784-99e3-a1f72fb18afd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type = 'text' and contains(@class,'header-search-input-field')])[1]</value>
+         <value>//li[contains(@class, 'selectlist-item') and .//div[contains(@class, 'check-label') and contains(text(), 'Administrator')]]//span[@class='ng-star-inserted']</value>
       </entry>
       <entry>
          <key>BASIC</key>

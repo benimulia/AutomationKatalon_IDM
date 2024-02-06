@@ -20,8 +20,6 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 Boolean result = false
 
-def input = 'automation'
-
 WebUI.waitForPageLoad(300)
 
 WebUI.click(findTestObject('Page_IDM/div_Group'))

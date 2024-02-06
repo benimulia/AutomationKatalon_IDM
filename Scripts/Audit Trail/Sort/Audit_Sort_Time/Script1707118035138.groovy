@@ -20,29 +20,35 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.WebElement as WebElement
-
-
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.List
+import java.util.Locale
 
 Boolean result = false
 
 WebUI.waitForPageLoad(300)
 
-WebUI.click(findTestObject('Object Repository/Page_User/div_User'))
+WebUI.click(findTestObject('Page_IDM/div_Audit Trail'))
 
-WebUI.waitForElementVisible(findTestObject('Page_User/td_user_collection_name'), 180)
+WebUI.waitForElementVisible(findTestObject('Page_Audit_Trail/td_audit_collection_time'), 180)
 
 // Ascending Order
-WebUI.click(findTestObject('Page_User/header_user_name'))
+WebUI.click(findTestObject('Page_Audit_Trail/header_audit_time'))
 
 // Function to get table values
 // Get original table values
-List<WebElement> originalTableValues = getTableValues()
+List<WebElement> originalTableElements = WebUI.findWebElements(findTestObject('Page_Audit_Trail/td_audit_collection_time'), 30)
 
-List<WebElement> tableValuesAsc = getTableValues()
+// Convert table elements to Date objects
+List<Date> originalTableValues = originalTableElements.collect {
+    Date parsedDate = Date.parse("MMM d, yyyy, h:mm:ss a", it.getText().trim())
+    return parsedDate
+}
 
-tableValuesAsc.sort({ def a, def b ->
-		a.toLowerCase() <=> b.toLowerCase()
-	})
+List<Date> tableValuesAsc = originalTableValues.sort { a, b ->
+    a <=> b
+}
 
 println('[asc] tablevalues after sorting: ' + tableValuesAsc.toString())
 
@@ -52,14 +58,11 @@ result = (originalTableValues.toString() == tableValuesAsc.toString())
 println('result 1 : ' + result)
 
 // Descending Order
-WebUI.click(findTestObject('Page_User/header_user_name'))
+WebUI.click(findTestObject('Page_Audit_Trail/header_audit_time'))
 
-List<WebElement> tableValuesDesc = getTableValues()
-
-//sort descending
-originalTableValues.sort({ def a, def b ->
-		b.toLowerCase() <=> a.toLowerCase()
-	})
+List<Date> tableValuesDesc = originalTableValues.sort { a, b ->
+    b <=> a
+}
 
 println('[desc] tablevalues after sorting: ' + tableValuesDesc.toString())
 
@@ -69,18 +72,3 @@ result = (result && (originalTableValues.toString() == tableValuesDesc.toString(
 println('result 2 : ' + result)
 
 assert result
-
-List<WebElement> getTableValues() {
-	List<WebElement> tableElements = WebUI.findWebElements(findTestObject('Page_User/td_user_collection_name'), 30)
-
-	List<WebElement> tableValues = new ArrayList<String>()
-
-	for (WebElement e : tableElements) {
-		String textContent = e.getText().trim()
-
-		tableValues.add(textContent)
-	}
-	
-	return tableValues
-}
-

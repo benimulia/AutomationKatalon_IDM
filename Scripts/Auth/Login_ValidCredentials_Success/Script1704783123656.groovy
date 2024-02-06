@@ -31,6 +31,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Welcome to the Pet
 
 WebUI.click(findTestObject('Object Repository/Page_Welcome to the Petrolink Digital Well File/button_Sign In'))
 
+WebUI.delay(5)
+
 actual_url = WebUI.getUrl()
 
 'this step for verify url, means user login successfuly'

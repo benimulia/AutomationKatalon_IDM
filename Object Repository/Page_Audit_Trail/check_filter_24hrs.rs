@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>search group name on group menu</description>
-   <name>input_header-search-name-group</name>
+   <description></description>
+   <name>check_filter_24hrs</name>
    <tag></tag>
-   <elementGuidId>44a3e1fe-9ba0-45a8-8bba-ce8bd3a13207</elementGuidId>
+   <elementGuidId>a530a8c9-78f2-4641-8e94-7a686a718aaf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type = 'text' and contains(@class,'header-search-input-field')])[1]</value>
+         <value>//li[contains(text(),'Last 24 hrs')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

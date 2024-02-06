@@ -1,37 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Auth_Login</name>
+   <name>Auth</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>f7dc1016-2296-4548-b9fd-6734de7b6daa</testSuiteGuid>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>6f33db53-3631-48bd-be29-7492ff87e9a2</testSuiteGuid>
    <testCaseLink>
-      <guid>3e5e07c7-b56a-4441-8c91-850693fd31b1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Auth/Login_ValidCredentials_Success</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>17f4e7a9-de99-4dfa-a580-27c3f1d4363d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>33c93f74-cad5-4c86-9485-59cc1709cb69</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5db96b83-6c82-41ad-8f7b-5ba19f56d601</guid>
+      <guid>07607fa2-4460-4a33-a39e-02c91628054e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Auth/Login_InvalidCredentials_Fail</testCaseId>
@@ -47,6 +28,32 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>ac9d18d8-eb60-425e-a8de-85c663159f7c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0ae04a0a-7fa8-4be2-b192-de8233b8479a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Auth/Login_Logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f577e93-3ca2-4de5-9d13-467895aa210f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Auth/Login_ValidCredentials_Success</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17f4e7a9-de99-4dfa-a580-27c3f1d4363d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>33c93f74-cad5-4c86-9485-59cc1709cb69</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

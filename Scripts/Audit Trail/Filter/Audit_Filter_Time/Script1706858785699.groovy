@@ -20,67 +20,60 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.WebElement as WebElement
-
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.List
+import java.util.Locale
 
 
 Boolean result = false
 
 WebUI.waitForPageLoad(300)
 
-WebUI.click(findTestObject('Object Repository/Page_User/div_User'))
+WebUI.click(findTestObject('Page_IDM/div_Audit Trail'))
 
-WebUI.waitForElementVisible(findTestObject('Page_User/td_user_collection_name'), 180)
+WebUI.click(findTestObject('Page_Audit_Trail/icon_filter_audit_time'))
 
-// Ascending Order
-WebUI.click(findTestObject('Page_User/header_user_name'))
+WebUI.click(findTestObject('Page_Audit_Trail/check_filter_24hrs'))
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 // Function to get table values
 // Get original table values
 List<WebElement> originalTableValues = getTableValues()
 
-List<WebElement> tableValuesAsc = getTableValues()
-
-tableValuesAsc.sort({ def a, def b ->
-		a.toLowerCase() <=> b.toLowerCase()
-	})
-
-println('[asc] tablevalues after sorting: ' + tableValuesAsc.toString())
-
-// Check if ascending order list matches the original
-result = (originalTableValues.toString() == tableValuesAsc.toString())
-
-println('result 1 : ' + result)
-
-// Descending Order
-WebUI.click(findTestObject('Page_User/header_user_name'))
-
-List<WebElement> tableValuesDesc = getTableValues()
-
-//sort descending
-originalTableValues.sort({ def a, def b ->
-		b.toLowerCase() <=> a.toLowerCase()
-	})
-
-println('[desc] tablevalues after sorting: ' + tableValuesDesc.toString())
-
-// Check if descending order list matches the original
-result = (result && (originalTableValues.toString() == tableValuesDesc.toString()))
-
-println('result 2 : ' + result)
+// Check if each date is within the last 24 hours
+result = originalTableValues.every { isWithinLast24Hours(it.text) }
 
 assert result
 
 List<WebElement> getTableValues() {
-	List<WebElement> tableElements = WebUI.findWebElements(findTestObject('Page_User/td_user_collection_name'), 30)
+    List<WebElement> tableElements = WebUI.findWebElements(findTestObject('Page_Audit_Trail/td_audit_collection_time'), 30)
 
-	List<WebElement> tableValues = new ArrayList<String>()
+    List<WebElement> tableValues = new ArrayList<WebElement>()
 
-	for (WebElement e : tableElements) {
-		String textContent = e.getText().trim()
+    for (WebElement e : tableElements) {
+        tableValues.add(e)
+    }
 
-		tableValues.add(textContent)
-	}
-	
-	return tableValues
+    return tableValues
 }
+
+boolean isWithinLast24Hours(String dateString) {
+    def dateFormat = new SimpleDateFormat("MMM d, yyyy, h:mm:ss a", Locale.ENGLISH)
+    def date = dateFormat.parse(dateString)
+
+    // Get the current date and time
+    def currentDate = new Date()
+
+    // Calculate the difference in milliseconds
+    def diffInMilliseconds = currentDate.time - date.time
+
+    // Calculate the difference in hours
+    def diffInHours = diffInMilliseconds / (1000 * 60 * 60)
+
+    // Check if the date is within the last 24 hours
+    return diffInHours < 24
+}
+
 

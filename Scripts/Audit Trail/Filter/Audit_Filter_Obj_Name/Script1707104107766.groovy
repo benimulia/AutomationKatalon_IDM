@@ -22,19 +22,19 @@ Boolean result = false
 
 WebUI.waitForPageLoad(300)
 
-WebUI.click(findTestObject('Page_IDM/div_Group'))
+WebUI.click(findTestObject('Page_IDM/div_Audit Trail'))
 
-WebUI.click(findTestObject('Page_Group/icon_filter_group_company'))
+WebUI.click(findTestObject('Page_Audit_Trail/icon_filter_audit_obj_name'))
 
-WebUI.click(findTestObject('Page_User/check_user_company_petrolink'))
+WebUI.click(findTestObject('Page_Audit_Trail/check_audit_obj_administrator'))
 
 WebUI.click(findTestObject('Page_User/btn_apply_filter'))
 
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-def actual_text = WebUI.getText(findTestObject('Page_Group/td_group_company'))
+def actual_text = WebUI.getText(findTestObject('Page_Audit_Trail/td_audit_collection_obj_name'))
 
-if (actual_text.contains('Petrolink')) {
+if (actual_text.contains('Administrator')) {
     result = true
 }
 
