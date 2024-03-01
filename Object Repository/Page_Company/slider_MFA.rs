@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>three dots icon</description>
-   <name>ellipsis_company_automation_test</name>
+   <description></description>
+   <name>slider_MFA</name>
    <tag></tag>
-   <elementGuidId>50a3a2a8-0690-4375-90ea-d419840a277d</elementGuidId>
+   <elementGuidId>1c8d3194-7b68-4aa8-a27b-2dd8c6cd000a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//p[contains(text(),'Automation')]/ancestor::div[contains(@class,'info-item-container')]//i</value>
+         <value>//*[@id='MFA']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

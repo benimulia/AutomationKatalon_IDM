@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>three dots icon</description>
-   <name>ellipsis_company_automation_test</name>
+   <description></description>
+   <name>check_via_email</name>
    <tag></tag>
-   <elementGuidId>50a3a2a8-0690-4375-90ea-d419840a277d</elementGuidId>
+   <elementGuidId>e09d4d9a-9d71-474d-9304-1e5f176a6a0a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//p[contains(text(),'Automation')]/ancestor::div[contains(@class,'info-item-container')]//i</value>
+         <value>(//span[@class='ng-star-inserted'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
