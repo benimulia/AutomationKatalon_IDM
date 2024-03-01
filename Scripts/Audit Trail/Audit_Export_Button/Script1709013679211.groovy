@@ -16,35 +16,53 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.testng.Assert as Assert
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForPageLoad(300)
-
-WebUI.verifyElementPresent(findTestObject('Page_IDM/div_Audit Trail'), 30)
-
-KeywordUtil.markPassed('Audit trail menu is present')
+//'Define Custom Path where file needs to be downloaded'
+String downloadPath = GlobalVariable.DOWNLOAD_PATH
 
 WebUI.click(findTestObject('Page_IDM/div_Audit Trail'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_time'), 0)
+WebUI.click(findTestObject('Page_Audit_Trail/button_export'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_object_name'), 0)
+//'Wait for Some time so that file gets downloaded and Stored in user defined path'
+WebUI.delay(10)
 
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_type'), 0)
+//'Verifying the file is download in the User defined Path'
+Assert.assertTrue(isFileDownloaded(downloadPath, 'AuditLog.csv'), 'Failed to download Expected document') // remove this line if you want to keep the file
 
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_action'), 0)
+boolean isFileDownloaded(String downloadPath, String fileName) {
+    long timeout = (1 * 60) * 1000 //1 min
 
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_performed_by'), 0)
+    long start = new Date().getTime()
 
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_additional_info'), 0)
+    boolean downloaded = false
 
-KeywordUtil.markPassed('Audit Trail columns are present')
+    File file = new File(downloadPath, fileName)
 
-WebUI.click(findTestObject('Page_User/menu_btn_filter'))
+    while (!(downloaded)) {
+        KeywordUtil.logInfo("Checking file exists $file.absolutePath")
 
-WebUI.click(findTestObject('Page_User/checkbox_filter_name'))
+        downloaded = file.exists()
 
-WebUI.delay(5)
+        if (downloaded) {
+            file.delete()
+        } else {
+            long now = new Date().getTime()
 
-WebUI.verifyElementNotPresent(findTestObject('Page_Audit_Trail/col_audit_time'), 0)
+            if ((now - start) > timeout) {
+                break
+            }
+            
+            Thread.sleep(3000)
+        }
+    }
+    
+    return downloaded
+}
 

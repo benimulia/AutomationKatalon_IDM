@@ -24,4 +24,9 @@
       <initValue>'https://skicvdevpv1.dev.petrolink.net/oms/omsserver/home/'</initValue>
       <name>URL_OMS</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>used for verify downloaded file</description>
+      <initValue>'C:\\Users\\tabarusb\\Downloads'</initValue>
+      <name>DOWNLOAD_PATH</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

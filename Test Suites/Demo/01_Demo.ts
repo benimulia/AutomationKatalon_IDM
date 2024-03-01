@@ -4,8 +4,8 @@
    <name>01_Demo</name>
    <tag></tag>
    <delayBetweenInstances>2</delayBetweenInstances>
-   <executionMode>SEQUENTIAL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
+   <executionMode>PARALLEL</executionMode>
+   <maxConcurrentInstances>4</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Audit Trail</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Demo/Auth</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Auth</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Demo/Home</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -35,7 +35,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Company</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Demo/Company</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -45,7 +45,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Home</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Demo/Group</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -55,7 +55,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Group</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Demo/User</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -65,7 +65,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/User</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Demo/Audit Trail</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

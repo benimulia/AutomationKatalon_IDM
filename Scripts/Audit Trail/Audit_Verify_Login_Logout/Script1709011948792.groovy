@@ -18,6 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+WebUI.callTestCase(findTestCase('Common Steps/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.waitForPageLoad(300)
 
 WebUI.verifyElementPresent(findTestObject('Page_IDM/div_Audit Trail'), 30)
@@ -26,25 +28,11 @@ KeywordUtil.markPassed('Audit trail menu is present')
 
 WebUI.click(findTestObject('Page_IDM/div_Audit Trail'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_time'), 0)
+WebUI.click(findTestObject('Object Repository/Page_IDM/img_profilePicture'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_object_name'), 0)
+WebUI.click(findTestObject('Object Repository/Page_IDM/button_Logout'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_type'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_IDM/button_Sign In'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_action'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_performed_by'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page_Audit_Trail/col_audit_additional_info'), 0)
-
-KeywordUtil.markPassed('Audit Trail columns are present')
-
-WebUI.click(findTestObject('Page_User/menu_btn_filter'))
-
-WebUI.click(findTestObject('Page_User/checkbox_filter_name'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementNotPresent(findTestObject('Page_Audit_Trail/col_audit_time'), 0)
+KeywordUtil.markPassed('Passed.')
 

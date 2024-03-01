@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Page_IDM/div_Audit Trail'))
 
 WebUI.click(findTestObject('Page_Audit_Trail/icon_filter_audit_performed_by'))
 
-WebUI.click(findTestObject('Page_Audit_Trail/check_audit_performed_by'))
+WebUI.click(findTestObject('Page_Audit_Trail/check_audit_performed_by_administrator'))
 
 WebUI.click(findTestObject('Page_User/btn_apply_filter'))
 

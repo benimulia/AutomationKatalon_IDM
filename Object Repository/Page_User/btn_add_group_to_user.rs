@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>check_audit_performed_by</name>
+   <name>btn_add_group_to_user</name>
    <tag></tag>
-   <elementGuidId>97936874-eec0-4448-a2d6-9b80d8b1dbbc</elementGuidId>
+   <elementGuidId>eba9d6b1-bc24-4a63-9793-f84764be36e0</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//li[contains(@class, 'selectlist-item') and .//div[contains(@class, 'check-label') and contains(text(), 'administrator')]]//span[@class='ng-star-inserted']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@class='add-to-group-button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>used for IDM-1198 #3</description>
    <name>Audit_Verify_Page_Columns</name>
    <tag></tag>
    <comment></comment>

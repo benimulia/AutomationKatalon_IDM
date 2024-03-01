@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_search_group_username_add_user</name>
+   <name>icon_search_group_name_add_group</name>
    <tag></tag>
-   <elementGuidId>fa15a68c-81d7-4da9-90ca-af64bedf8171</elementGuidId>
+   <elementGuidId>cbd20b9b-a812-4920-a4a6-0eb0050f1d18</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(@class,'labelComp pvu-icon-search')])[4]</value>
+         <value>(//a[contains(@class,'labelComp pvu-icon-search')])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2e10ee3f-ca60-46e2-ad79-b8fc853cd25b</webElementGuid>
+      <webElementGuid>b6818584-3732-44d2-a76e-f79f34633877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>labelComp pvu-icon-search</value>
-      <webElementGuid>843979b6-749f-43a7-9a37-665678cd4268</webElementGuid>
+      <webElementGuid>b87f7510-9aaa-499b-be25-09c9910c47fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/pvu-root[@class=&quot;ng-tns-c1361803851-0&quot;]/div[@class=&quot;fullscreen-container ng-tns-c1361803851-0&quot;]/div[@class=&quot;p-0 ng-tns-c1361803851-0&quot;]/pvu-main-app[@class=&quot;ng-tns-c1063071239-13 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1063071239-13&quot;]/pvu-right-panel[@class=&quot;ng-tns-c1063071239-13 ng-trigger ng-trigger-slideInOutRightPanel&quot;]/div[@class=&quot;d-flex flex-column h-100&quot;]/div[@class=&quot;right-panel-content-container p-2 pt-0 pb-0 bg-navbar&quot;]/pvu-add-user-group-to-group[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;h-100 w-100 float-start&quot;]/div[@class=&quot;grid-holder&quot;]/pvu-grid[1]/div[@class=&quot;pvu-grid-container w-100 h-100 header-hidden-grid footer-hidden-grid ng-star-inserted&quot;]/div[@class=&quot;grid-title-container ng-star-inserted&quot;]/pvu-grid-title[@class=&quot;ng-tns-c663453339-19 ng-star-inserted&quot;]/table[@class=&quot;grid-title table ng-tns-c663453339-19&quot;]/thead[@class=&quot;ng-tns-c663453339-19&quot;]/tr[@class=&quot;ng-tns-c663453339-19&quot;]/th[@class=&quot;ng-tns-c663453339-19 grid-header-cell drop-zone for-fullName ng-star-inserted&quot;]/pvu-grid-header-cell[@class=&quot;ng-tns-c663453339-19&quot;]/div[@class=&quot;grid-header-cell&quot;]/pvu-header-search-cell[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;header-search-cell-holder d-flex align-items-center grid-header-cell&quot;]/a[@class=&quot;labelComp pvu-icon-search&quot;]</value>
-      <webElementGuid>b4eb20bb-911d-4011-bc6b-f3e8613e0049</webElementGuid>
+      <webElementGuid>d9ad8663-2d9d-4dac-b649-ae93e47857e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//pvu-add-user-group-to-group/div/div/pvu-grid/div/div/pvu-grid-title/table/thead/tr/th[2]/pvu-grid-header-cell/div/pvu-header-search-cell/div/a[3]</value>
-      <webElementGuid>0d58b0f7-8c63-4d67-a8b6-0e8f3eb23784</webElementGuid>
+      <webElementGuid>6e0d9480-b5f9-4568-b917-32f1aed8cd4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//th[3]/pvu-grid-header-cell/div/pvu-header-search-cell/div/a[3]</value>
-      <webElementGuid>614769ed-ccf4-49ca-b85c-2af84f34c0c9</webElementGuid>
+      <webElementGuid>3f2c4f17-fcf2-4081-9d7e-e28a4c503091</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[3]</value>
-      <webElementGuid>d4ad3d3e-8690-4326-93e1-77ba4ee07536</webElementGuid>
+      <webElementGuid>c780a7f2-ee7b-4800-98f8-4ba5a5f8f84d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
