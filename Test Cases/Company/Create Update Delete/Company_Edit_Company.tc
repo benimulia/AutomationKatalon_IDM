@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>for jira IDM-1162</description>
+   <name>Company_Edit_Company</name>
+   <tag>jira</tag>
+   <comment></comment>
+   <testCaseGuid>f519952b-223a-4814-965b-1ef1097ffa8c</testCaseGuid>
+</TestCaseEntity>

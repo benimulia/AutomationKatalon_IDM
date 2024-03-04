@@ -71,7 +71,7 @@ WebUI.verifyElementPresent(findTestObject('Page_User/label_MFA_checked'), 30)
 // ==================== EDIT COMPANY MFA ====================
 WebUI.click(findTestObject('Page_IDM/div_Company'))
 
-WebUI.click(findTestObject('Page_Company/ellipsis_company_automation_test'))
+WebUI.click(findTestObject('Page_Company/ellipsis_company_exact_with_variable',[('companyObjName'):'Automation Company Temp']))
 
 WebUI.click(findTestObject('Page_Company/button_edit_company'))
 
@@ -100,3 +100,39 @@ WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotPresent(findTestObject('Page_User/label_MFA_checked'), 30)
 
+
+// DELETE USER AND COMPANY
+
+WebUI.click(findTestObject('Page_IDM/div_User'))
+
+WebUI.waitForPageLoad(300)
+
+WebUI.click(findTestObject('Object Repository/Page_User/div_User'))
+
+WebUI.click(findTestObject('Page_User/icon_Search_User_username'))
+
+WebUI.setText(findTestObject('Page_User/input_header-search-username'), username)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Page_User/td_user_username'))
+
+WebUI.click(findTestObject('Page_User/btn_delete'))
+
+WebUI.click(findTestObject('Page_User/btn_confirm_delete'))
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent('User(s) deleted successfully.', false)
+
+WebUI.click(findTestObject('Page_IDM/div_Company'))
+
+WebUI.click(findTestObject('Page_Company/ellipsis_company_exact_with_variable',[('companyObjName'):company_name]))
+
+WebUI.click(findTestObject('Page_Company/button_delete_company'))
+
+WebUI.click(findTestObject('Page_User/btn_confirm_delete'))
+
+WebUI.waitForPageLoad(60)
+
+WebUI.verifyTextPresent('Company deleted successfully.', false)
